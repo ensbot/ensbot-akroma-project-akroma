@@ -24,12 +24,12 @@ import (
 	"net"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/nat"
-	"github.com/ethereum/go-ethereum/p2p/netutil"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/trinityfx/trinity/common"
+	"github.com/trinityfx/trinity/crypto"
+	"github.com/trinityfx/trinity/log"
+	"github.com/trinityfx/trinity/p2p/nat"
+	"github.com/trinityfx/trinity/p2p/netutil"
+	"github.com/trinityfx/trinity/rlp"
 )
 
 const Version = 4

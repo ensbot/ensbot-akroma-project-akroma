@@ -23,8 +23,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/core/vm"
+	"github.com/trinityfx/trinity/common/math"
+	"github.com/trinityfx/trinity/core/vm"
 )
 
 // Compiler contains information about the parsed source

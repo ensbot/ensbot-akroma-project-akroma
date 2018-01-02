@@ -26,12 +26,12 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/internal/debug"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/trinityfx/trinity/core"
+	"github.com/trinityfx/trinity/core/types"
+	"github.com/trinityfx/trinity/internal/debug"
+	"github.com/trinityfx/trinity/log"
+	"github.com/trinityfx/trinity/node"
+	"github.com/trinityfx/trinity/rlp"
 )
 
 const (

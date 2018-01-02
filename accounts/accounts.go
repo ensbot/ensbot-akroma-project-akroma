@@ -20,10 +20,10 @@ package accounts
 import (
 	"math/big"
 
-	ethereum "github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/event"
+	ethereum "github.com/trinityfx/trinity"
+	"github.com/trinityfx/trinity/common"
+	"github.com/trinityfx/trinity/core/types"
+	"github.com/trinityfx/trinity/event"
 )
 
 // Account represents an Ethereum account located at a specific location defined

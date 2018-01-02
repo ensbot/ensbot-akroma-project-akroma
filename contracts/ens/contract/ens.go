@@ -6,10 +6,10 @@ package contract
 import (
 	"strings"
 
-	"github.com/ethereum/go-ethereum/accounts/abi"
-	"github.com/ethereum/go-ethereum/accounts/abi/bind"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/trinityfx/trinity/accounts/abi"
+	"github.com/trinityfx/trinity/accounts/abi/bind"
+	"github.com/trinityfx/trinity/common"
+	"github.com/trinityfx/trinity/core/types"
 )
 
 // ENSABI is the input ABI used to generate the binding from.

@@ -26,12 +26,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/internal/jsre"
-	"github.com/ethereum/go-ethereum/node"
+	"github.com/trinityfx/trinity/common"
+	"github.com/trinityfx/trinity/consensus/ethash"
+	"github.com/trinityfx/trinity/core"
+	"github.com/trinityfx/trinity/eth"
+	"github.com/trinityfx/trinity/internal/jsre"
+	"github.com/trinityfx/trinity/node"
 )
 
 const (

@@ -25,13 +25,13 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/discover"
-	"github.com/ethereum/go-ethereum/p2p/simulations"
-	"github.com/ethereum/go-ethereum/p2p/simulations/adapters"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/trinityfx/trinity/log"
+	"github.com/trinityfx/trinity/node"
+	"github.com/trinityfx/trinity/p2p"
+	"github.com/trinityfx/trinity/p2p/discover"
+	"github.com/trinityfx/trinity/p2p/simulations"
+	"github.com/trinityfx/trinity/p2p/simulations/adapters"
+	"github.com/trinityfx/trinity/rpc"
 )
 
 var adapterType = flag.String("adapter", "sim", `node adapter to use (one of "sim", "exec" or "docker")`)

@@ -27,12 +27,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/discover"
-	"github.com/ethereum/go-ethereum/p2p/simulations/adapters"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/trinityfx/trinity/event"
+	"github.com/trinityfx/trinity/node"
+	"github.com/trinityfx/trinity/p2p"
+	"github.com/trinityfx/trinity/p2p/discover"
+	"github.com/trinityfx/trinity/p2p/simulations/adapters"
+	"github.com/trinityfx/trinity/rpc"
 )
 
 // testService implements the node.Service interface and provides protocols

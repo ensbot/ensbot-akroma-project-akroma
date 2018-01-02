@@ -24,9 +24,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/trinityfx/trinity/common"
+	"github.com/trinityfx/trinity/core/vm"
+	"github.com/trinityfx/trinity/params"
 )
 
 type account struct{}

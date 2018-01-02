@@ -21,11 +21,11 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/accounts/abi/bind"
-	"github.com/ethereum/go-ethereum/accounts/abi/bind/backends"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/trinityfx/trinity/accounts/abi/bind"
+	"github.com/trinityfx/trinity/accounts/abi/bind/backends"
+	"github.com/trinityfx/trinity/common"
+	"github.com/trinityfx/trinity/core"
+	"github.com/trinityfx/trinity/crypto"
 )
 
 // setupReleaseTest creates a blockchain simulator and deploys a version oracle

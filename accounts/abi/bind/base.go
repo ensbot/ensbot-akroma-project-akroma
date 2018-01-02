@@ -22,11 +22,11 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/accounts/abi"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/trinityfx/trinity"
+	"github.com/trinityfx/trinity/accounts/abi"
+	"github.com/trinityfx/trinity/common"
+	"github.com/trinityfx/trinity/core/types"
+	"github.com/trinityfx/trinity/crypto"
 )
 
 // SignerFn is a signer function callback when a contract requires a method to

@@ -22,8 +22,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/swarm/storage"
+	"github.com/trinityfx/trinity/log"
+	"github.com/trinityfx/trinity/swarm/storage"
 )
 
 // Handler for storage/retrieval related protocol requests

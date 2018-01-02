@@ -25,13 +25,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/trinityfx/trinity/common"
+	"github.com/trinityfx/trinity/core/state"
+	"github.com/trinityfx/trinity/core/types"
+	"github.com/trinityfx/trinity/event"
+	"github.com/trinityfx/trinity/log"
+	"github.com/trinityfx/trinity/metrics"
+	"github.com/trinityfx/trinity/params"
 	"gopkg.in/karalabe/cookiejar.v2/collections/prque"
 )
 

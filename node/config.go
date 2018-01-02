@@ -25,14 +25,14 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/accounts/usbwallet"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/discover"
+	"github.com/trinityfx/trinity/accounts"
+	"github.com/trinityfx/trinity/accounts/keystore"
+	"github.com/trinityfx/trinity/accounts/usbwallet"
+	"github.com/trinityfx/trinity/common"
+	"github.com/trinityfx/trinity/crypto"
+	"github.com/trinityfx/trinity/log"
+	"github.com/trinityfx/trinity/p2p"
+	"github.com/trinityfx/trinity/p2p/discover"
 )
 
 const (

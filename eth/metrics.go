@@ -17,8 +17,8 @@
 package eth
 
 import (
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/p2p"
+	"github.com/trinityfx/trinity/metrics"
+	"github.com/trinityfx/trinity/p2p"
 )
 
 var (

@@ -20,11 +20,11 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/trinityfx/trinity/common/math"
+	"github.com/trinityfx/trinity/consensus"
+	"github.com/trinityfx/trinity/core/state"
+	"github.com/trinityfx/trinity/core/types"
+	"github.com/trinityfx/trinity/params"
 )
 
 // BlockValidator is responsible for validating block headers, uncles and

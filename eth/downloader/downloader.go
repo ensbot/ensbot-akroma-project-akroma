@@ -27,13 +27,13 @@ import (
 	"sync/atomic"
 	"time"
 
-	ethereum "github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
+	ethereum "github.com/trinityfx/trinity"
+	"github.com/trinityfx/trinity/common"
+	"github.com/trinityfx/trinity/core/types"
+	"github.com/trinityfx/trinity/ethdb"
+	"github.com/trinityfx/trinity/event"
+	"github.com/trinityfx/trinity/log"
+	"github.com/trinityfx/trinity/params"
 	"github.com/rcrowley/go-metrics"
 )
 

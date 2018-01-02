@@ -22,14 +22,14 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/contracts/ens"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/swarm/network"
-	"github.com/ethereum/go-ethereum/swarm/services/swap"
-	"github.com/ethereum/go-ethereum/swarm/storage"
+	"github.com/trinityfx/trinity/common"
+	"github.com/trinityfx/trinity/contracts/ens"
+	"github.com/trinityfx/trinity/crypto"
+	"github.com/trinityfx/trinity/log"
+	"github.com/trinityfx/trinity/node"
+	"github.com/trinityfx/trinity/swarm/network"
+	"github.com/trinityfx/trinity/swarm/services/swap"
+	"github.com/trinityfx/trinity/swarm/storage"
 )
 
 const (

@@ -23,15 +23,15 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/light"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/trinityfx/trinity/common"
+	"github.com/trinityfx/trinity/core"
+	"github.com/trinityfx/trinity/core/types"
+	"github.com/trinityfx/trinity/crypto"
+	"github.com/trinityfx/trinity/ethdb"
+	"github.com/trinityfx/trinity/light"
+	"github.com/trinityfx/trinity/log"
+	"github.com/trinityfx/trinity/rlp"
+	"github.com/trinityfx/trinity/trie"
 )
 
 var (

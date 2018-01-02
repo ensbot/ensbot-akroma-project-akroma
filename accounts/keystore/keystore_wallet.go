@@ -19,9 +19,9 @@ package keystore
 import (
 	"math/big"
 
-	ethereum "github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/core/types"
+	ethereum "github.com/trinityfx/trinity"
+	"github.com/trinityfx/trinity/accounts"
+	"github.com/trinityfx/trinity/core/types"
 )
 
 // keystoreWallet implements the accounts.Wallet interface for the original

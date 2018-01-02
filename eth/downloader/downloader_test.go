@@ -25,16 +25,16 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/trinityfx/trinity/common"
+	"github.com/trinityfx/trinity/consensus/ethash"
+	"github.com/trinityfx/trinity/core"
+	"github.com/trinityfx/trinity/core/state"
+	"github.com/trinityfx/trinity/core/types"
+	"github.com/trinityfx/trinity/crypto"
+	"github.com/trinityfx/trinity/ethdb"
+	"github.com/trinityfx/trinity/event"
+	"github.com/trinityfx/trinity/params"
+	"github.com/trinityfx/trinity/trie"
 )
 
 var (

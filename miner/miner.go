@@ -21,17 +21,17 @@ import (
 	"fmt"
 	"sync/atomic"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/eth/downloader"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/trinityfx/trinity/accounts"
+	"github.com/trinityfx/trinity/common"
+	"github.com/trinityfx/trinity/consensus"
+	"github.com/trinityfx/trinity/core"
+	"github.com/trinityfx/trinity/core/state"
+	"github.com/trinityfx/trinity/core/types"
+	"github.com/trinityfx/trinity/eth/downloader"
+	"github.com/trinityfx/trinity/ethdb"
+	"github.com/trinityfx/trinity/event"
+	"github.com/trinityfx/trinity/log"
+	"github.com/trinityfx/trinity/params"
 )
 
 // Backend wraps all methods required for mining.

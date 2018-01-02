@@ -27,12 +27,12 @@ import (
 	"os"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/logger"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/nat"
-	"github.com/ethereum/go-ethereum/whisper"
+	"github.com/trinityfx/trinity/common"
+	"github.com/trinityfx/trinity/crypto"
+	"github.com/trinityfx/trinity/logger"
+	"github.com/trinityfx/trinity/p2p"
+	"github.com/trinityfx/trinity/p2p/nat"
+	"github.com/trinityfx/trinity/whisper"
 )
 
 func main() {

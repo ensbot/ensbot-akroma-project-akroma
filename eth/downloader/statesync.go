@@ -23,12 +23,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/crypto/sha3"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/trinityfx/trinity/common"
+	"github.com/trinityfx/trinity/core/state"
+	"github.com/trinityfx/trinity/crypto/sha3"
+	"github.com/trinityfx/trinity/ethdb"
+	"github.com/trinityfx/trinity/log"
+	"github.com/trinityfx/trinity/trie"
 )
 
 // stateReq represents a batch of state fetch requests groupped together into

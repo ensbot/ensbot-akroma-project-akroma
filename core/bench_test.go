@@ -23,14 +23,14 @@ import (
 	"os"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/trinityfx/trinity/common"
+	"github.com/trinityfx/trinity/common/math"
+	"github.com/trinityfx/trinity/consensus/ethash"
+	"github.com/trinityfx/trinity/core/types"
+	"github.com/trinityfx/trinity/core/vm"
+	"github.com/trinityfx/trinity/crypto"
+	"github.com/trinityfx/trinity/ethdb"
+	"github.com/trinityfx/trinity/params"
 )
 
 func BenchmarkInsertChain_empty_memdb(b *testing.B) {

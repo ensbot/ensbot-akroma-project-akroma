@@ -23,12 +23,12 @@ import (
 	"net"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/discover"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/trinityfx/trinity/event"
+	"github.com/trinityfx/trinity/log"
+	"github.com/trinityfx/trinity/node"
+	"github.com/trinityfx/trinity/p2p"
+	"github.com/trinityfx/trinity/p2p/discover"
+	"github.com/trinityfx/trinity/rpc"
 )
 
 // SimAdapter is a NodeAdapter which creates in-memory simulation nodes and

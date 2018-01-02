@@ -21,12 +21,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/light"
+	"github.com/trinityfx/trinity/common"
+	"github.com/trinityfx/trinity/core"
+	"github.com/trinityfx/trinity/crypto"
+	"github.com/trinityfx/trinity/eth"
+	"github.com/trinityfx/trinity/ethdb"
+	"github.com/trinityfx/trinity/light"
 )
 
 var testBankSecureTrieKey = secAddr(testBankAddress)

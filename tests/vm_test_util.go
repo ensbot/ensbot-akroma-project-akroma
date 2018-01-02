@@ -22,19 +22,19 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/trinityfx/trinity/common"
+	"github.com/trinityfx/trinity/common/hexutil"
+	"github.com/trinityfx/trinity/common/math"
+	"github.com/trinityfx/trinity/core"
+	"github.com/trinityfx/trinity/core/state"
+	"github.com/trinityfx/trinity/core/vm"
+	"github.com/trinityfx/trinity/crypto"
+	"github.com/trinityfx/trinity/ethdb"
+	"github.com/trinityfx/trinity/params"
 )
 
 // VMTest checks EVM execution without block or transaction context.
-// See https://github.com/ethereum/tests/wiki/VM-Tests for the test format specification.
+// See https://github.com/trinityfx/tests/wiki/VM-Tests for the test format specification.
 type VMTest struct {
 	json vmJSON
 }
