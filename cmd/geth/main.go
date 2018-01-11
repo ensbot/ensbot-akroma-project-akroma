@@ -40,7 +40,7 @@ import (
 )
 
 const (
-	clientIdentifier = "Trinity" // Client identifier to advertise over the network
+	clientIdentifier = "geth" // Client identifier to advertise over the network
 )
 
 var (
