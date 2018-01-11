@@ -22,10 +22,11 @@ import (
 	"io"
 	"sort"
 
+	"strings"
+
 	"github.com/trinityfx/trinity/cmd/utils"
 	"github.com/trinityfx/trinity/internal/debug"
 	"gopkg.in/urfave/cli.v1"
-	"strings"
 )
 
 // AppHelpTemplate is the test template for the default, global app help topic.
