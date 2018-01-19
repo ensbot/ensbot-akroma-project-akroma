@@ -20,8 +20,8 @@ package params
 // the main Ethereum network.
 var MainnetBootnodes = []string{
 	// Trinity Foundation (soon) Go Bootnodes
-	"enode://ae808feecd7c92e4355c782e811729ef1419e7bbcf225fbf03b726a7eaa1e2a4c22fca527befdb80abcba5c4b0a53e4237a9be2268d706e5322977b59e0f4057@40.79.84.146:30303",
-	"enode://874c03b1db99e213d7a2a772029fce677ec00f8520e1362ff07c68063b0d5a74a3cb8fd87b1583b9ea7ce2b010c334b992255f7b30161197328abf2dc8767dd3@52.191.171.167:30303",
+	"enode://795cc6dd6f248cdc1757b7b5b2f9e7b74bf8c525497752b9cfd2453acfb7966e51c4d86a02d8bd8cd129052ac66760d28c605c053c9e068ec3c2a984ee5514f7@40.79.84.146:30303",
+	"enode://3adb2b2597ff31de4cdc13ba6bdfccae65c3afd0710f18dcbc168c70a75db1f04fcd344399043514df5b56a97b97703e690eecd5473aebc269b3c476ab2902ef@52.191.171.167:30303",
 }
 
 // TestnetBootnodes are the enode URLs of the P2P bootstrap nodes running on the
