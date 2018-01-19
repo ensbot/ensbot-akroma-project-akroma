@@ -21,8 +21,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/common/mclock"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/common/mclock"
 )
 
 func TestTopicRadius(t *testing.T) {

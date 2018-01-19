@@ -22,9 +22,9 @@ import (
 	"math/big"
 	"sort"
 
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/core/types"
-	"github.com/trinityfx/trinity/log"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/core/types"
+	"github.com/akroma-project/akroma/log"
 )
 
 // nonceHeap is a heap.Interface implementation over 64bit unsigned integers for

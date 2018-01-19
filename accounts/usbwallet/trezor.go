@@ -27,12 +27,12 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/trinityfx/trinity/accounts"
-	"github.com/trinityfx/trinity/accounts/usbwallet/internal/trezor"
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/common/hexutil"
-	"github.com/trinityfx/trinity/core/types"
-	"github.com/trinityfx/trinity/log"
+	"github.com/akroma-project/akroma/accounts"
+	"github.com/akroma-project/akroma/accounts/usbwallet/internal/trezor"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/common/hexutil"
+	"github.com/akroma-project/akroma/core/types"
+	"github.com/akroma-project/akroma/log"
 	"github.com/golang/protobuf/proto"
 )
 

@@ -25,11 +25,11 @@ import (
 	"sync"
 	"time"
 
-	ethereum "github.com/trinityfx/trinity"
-	"github.com/trinityfx/trinity/accounts"
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/core/types"
-	"github.com/trinityfx/trinity/log"
+	ethereum "github.com/akroma-project/akroma"
+	"github.com/akroma-project/akroma/accounts"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/core/types"
+	"github.com/akroma-project/akroma/log"
 	"github.com/karalabe/hid"
 )
 

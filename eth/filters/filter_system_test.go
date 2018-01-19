@@ -25,15 +25,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/consensus/ethash"
-	"github.com/trinityfx/trinity/core"
-	"github.com/trinityfx/trinity/core/bloombits"
-	"github.com/trinityfx/trinity/core/types"
-	"github.com/trinityfx/trinity/ethdb"
-	"github.com/trinityfx/trinity/event"
-	"github.com/trinityfx/trinity/params"
-	"github.com/trinityfx/trinity/rpc"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/consensus/ethash"
+	"github.com/akroma-project/akroma/core"
+	"github.com/akroma-project/akroma/core/bloombits"
+	"github.com/akroma-project/akroma/core/types"
+	"github.com/akroma-project/akroma/ethdb"
+	"github.com/akroma-project/akroma/event"
+	"github.com/akroma-project/akroma/params"
+	"github.com/akroma-project/akroma/rpc"
 )
 
 type testBackend struct {

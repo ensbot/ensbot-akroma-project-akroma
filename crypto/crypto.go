@@ -28,10 +28,10 @@ import (
 	"math/big"
 	"os"
 
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/common/math"
-	"github.com/trinityfx/trinity/crypto/sha3"
-	"github.com/trinityfx/trinity/rlp"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/common/math"
+	"github.com/akroma-project/akroma/crypto/sha3"
+	"github.com/akroma-project/akroma/rlp"
 )
 
 var (

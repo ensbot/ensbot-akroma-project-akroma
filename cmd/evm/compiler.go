@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/trinityfx/trinity/cmd/evm/internal/compiler"
+	"github.com/akroma-project/akroma/cmd/evm/internal/compiler"
 
 	cli "gopkg.in/urfave/cli.v1"
 )

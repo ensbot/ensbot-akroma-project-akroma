@@ -27,7 +27,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/trinityfx/trinity/crypto/sha3"
+	"github.com/akroma-project/akroma/crypto/sha3"
 )
 
 /*

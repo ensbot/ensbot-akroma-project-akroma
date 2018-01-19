@@ -20,7 +20,7 @@ import (
 	"html/template"
 	"path"
 
-	"github.com/trinityfx/trinity/swarm/api"
+	"github.com/akroma-project/akroma/swarm/api"
 )
 
 type htmlListData struct {

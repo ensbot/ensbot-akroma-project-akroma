@@ -22,9 +22,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/trinityfx/trinity/accounts"
-	"github.com/trinityfx/trinity/event"
-	"github.com/trinityfx/trinity/log"
+	"github.com/akroma-project/akroma/accounts"
+	"github.com/akroma-project/akroma/event"
+	"github.com/akroma-project/akroma/log"
 	"github.com/karalabe/hid"
 )
 

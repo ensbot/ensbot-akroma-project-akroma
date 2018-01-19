@@ -22,8 +22,8 @@ import (
 	"errors"
 	"math/big"
 
-	ethereum "github.com/trinityfx/trinity"
-	"github.com/trinityfx/trinity/common"
+	ethereum "github.com/akroma-project/akroma"
+	"github.com/akroma-project/akroma/common"
 )
 
 // Subscription represents an event subscription where events are

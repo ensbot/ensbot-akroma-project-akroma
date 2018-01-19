@@ -25,8 +25,8 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/trinityfx/trinity/swarm/api"
-	"github.com/trinityfx/trinity/swarm/testutil"
+	"github.com/akroma-project/akroma/swarm/api"
+	"github.com/akroma-project/akroma/swarm/testutil"
 )
 
 // TestClientUploadDownloadRaw test uploading and downloading raw data to swarm

@@ -17,10 +17,10 @@
 package clique
 
 import (
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/consensus"
-	"github.com/trinityfx/trinity/core/types"
-	"github.com/trinityfx/trinity/rpc"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/consensus"
+	"github.com/akroma-project/akroma/core/types"
+	"github.com/akroma-project/akroma/rpc"
 )
 
 // API is a user facing RPC API to allow controlling the signer and voting

@@ -42,7 +42,7 @@ import (
 	"fmt"
 	"hash"
 
-	ethcrypto "github.com/trinityfx/trinity/crypto"
+	ethcrypto "github.com/akroma-project/akroma/crypto"
 )
 
 var (

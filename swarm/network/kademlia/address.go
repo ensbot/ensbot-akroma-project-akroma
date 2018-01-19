@@ -21,7 +21,7 @@ import (
 	"math/rand"
 	"strings"
 
-	"github.com/trinityfx/trinity/common"
+	"github.com/akroma-project/akroma/common"
 )
 
 type Address common.Hash

@@ -7,9 +7,9 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/common/hexutil"
-	"github.com/trinityfx/trinity/common/math"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/common/hexutil"
+	"github.com/akroma-project/akroma/common/math"
 )
 
 var _ = (*vmExecMarshaling)(nil)

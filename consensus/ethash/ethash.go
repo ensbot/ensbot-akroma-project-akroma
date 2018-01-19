@@ -32,9 +32,9 @@ import (
 	"unsafe"
 
 	mmap "github.com/edsrzf/mmap-go"
-	"github.com/trinityfx/trinity/consensus"
-	"github.com/trinityfx/trinity/log"
-	"github.com/trinityfx/trinity/rpc"
+	"github.com/akroma-project/akroma/consensus"
+	"github.com/akroma-project/akroma/log"
+	"github.com/akroma-project/akroma/rpc"
 	metrics "github.com/rcrowley/go-metrics"
 )
 

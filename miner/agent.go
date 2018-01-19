@@ -21,8 +21,8 @@ import (
 
 	"sync/atomic"
 
-	"github.com/trinityfx/trinity/consensus"
-	"github.com/trinityfx/trinity/log"
+	"github.com/akroma-project/akroma/consensus"
+	"github.com/akroma-project/akroma/log"
 )
 
 type CpuAgent struct {

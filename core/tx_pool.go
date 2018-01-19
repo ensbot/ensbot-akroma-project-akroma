@@ -25,13 +25,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/core/state"
-	"github.com/trinityfx/trinity/core/types"
-	"github.com/trinityfx/trinity/event"
-	"github.com/trinityfx/trinity/log"
-	"github.com/trinityfx/trinity/metrics"
-	"github.com/trinityfx/trinity/params"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/core/state"
+	"github.com/akroma-project/akroma/core/types"
+	"github.com/akroma-project/akroma/event"
+	"github.com/akroma-project/akroma/log"
+	"github.com/akroma-project/akroma/metrics"
+	"github.com/akroma-project/akroma/params"
 	"gopkg.in/karalabe/cookiejar.v2/collections/prque"
 )
 

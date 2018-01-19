@@ -26,8 +26,8 @@ import (
 
 	"bazil.org/fuse"
 	"bazil.org/fuse/fs"
-	"github.com/trinityfx/trinity/log"
-	"github.com/trinityfx/trinity/swarm/storage"
+	"github.com/akroma-project/akroma/log"
+	"github.com/akroma-project/akroma/swarm/storage"
 	"golang.org/x/net/context"
 )
 

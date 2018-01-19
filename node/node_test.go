@@ -24,9 +24,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/trinityfx/trinity/crypto"
-	"github.com/trinityfx/trinity/p2p"
-	"github.com/trinityfx/trinity/rpc"
+	"github.com/akroma-project/akroma/crypto"
+	"github.com/akroma-project/akroma/p2p"
+	"github.com/akroma-project/akroma/rpc"
 )
 
 var (

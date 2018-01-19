@@ -21,7 +21,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/trinityfx/trinity/common/mclock"
+	"github.com/akroma-project/akroma/common/mclock"
 )
 
 // Subscription represents a stream of events. The carrier of the events is typically a

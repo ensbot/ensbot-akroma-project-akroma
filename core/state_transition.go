@@ -20,11 +20,11 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/common/math"
-	"github.com/trinityfx/trinity/core/vm"
-	"github.com/trinityfx/trinity/log"
-	"github.com/trinityfx/trinity/params"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/common/math"
+	"github.com/akroma-project/akroma/core/vm"
+	"github.com/akroma-project/akroma/log"
+	"github.com/akroma-project/akroma/params"
 )
 
 var (

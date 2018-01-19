@@ -21,11 +21,11 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/common/math"
-	"github.com/trinityfx/trinity/consensus/ethash"
-	"github.com/trinityfx/trinity/core/types"
-	"github.com/trinityfx/trinity/params"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/common/math"
+	"github.com/akroma-project/akroma/consensus/ethash"
+	"github.com/akroma-project/akroma/core/types"
+	"github.com/akroma-project/akroma/params"
 )
 
 //go:generate gencodec -type DifficultyTest -field-override difficultyTestMarshaling -out gen_difficultytest.go

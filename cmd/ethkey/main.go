@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/trinityfx/trinity/cmd/utils"
+	"github.com/akroma-project/akroma/cmd/utils"
 	"gopkg.in/urfave/cli.v1"
 )
 

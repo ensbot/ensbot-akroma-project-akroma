@@ -23,9 +23,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/core/types"
-	"github.com/trinityfx/trinity/ethdb"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/core/types"
+	"github.com/akroma-project/akroma/ethdb"
 )
 
 // Runs multiple tests with randomized parameters.

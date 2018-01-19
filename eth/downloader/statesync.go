@@ -23,12 +23,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/core/state"
-	"github.com/trinityfx/trinity/crypto/sha3"
-	"github.com/trinityfx/trinity/ethdb"
-	"github.com/trinityfx/trinity/log"
-	"github.com/trinityfx/trinity/trie"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/core/state"
+	"github.com/akroma-project/akroma/crypto/sha3"
+	"github.com/akroma-project/akroma/ethdb"
+	"github.com/akroma-project/akroma/log"
+	"github.com/akroma-project/akroma/trie"
 )
 
 // stateReq represents a batch of state fetch requests groupped together into

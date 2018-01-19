@@ -25,7 +25,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/trinityfx/trinity/ethdb"
+	"github.com/akroma-project/akroma/ethdb"
 )
 
 func newTestLDB() (*ethdb.LDBDatabase, func()) {

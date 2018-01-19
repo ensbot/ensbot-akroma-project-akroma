@@ -26,12 +26,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/consensus/ethash"
-	"github.com/trinityfx/trinity/core"
-	"github.com/trinityfx/trinity/eth"
-	"github.com/trinityfx/trinity/internal/jsre"
-	"github.com/trinityfx/trinity/node"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/consensus/ethash"
+	"github.com/akroma-project/akroma/core"
+	"github.com/akroma-project/akroma/eth"
+	"github.com/akroma-project/akroma/internal/jsre"
+	"github.com/akroma-project/akroma/node"
 )
 
 const (

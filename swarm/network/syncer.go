@@ -22,8 +22,8 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/trinityfx/trinity/log"
-	"github.com/trinityfx/trinity/swarm/storage"
+	"github.com/akroma-project/akroma/log"
+	"github.com/akroma-project/akroma/swarm/storage"
 )
 
 // syncer parameters (global, not peer specific) default values

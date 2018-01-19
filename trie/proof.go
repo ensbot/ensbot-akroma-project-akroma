@@ -20,10 +20,10 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/crypto"
-	"github.com/trinityfx/trinity/log"
-	"github.com/trinityfx/trinity/rlp"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/crypto"
+	"github.com/akroma-project/akroma/log"
+	"github.com/akroma-project/akroma/rlp"
 )
 
 // Prove constructs a merkle proof for key. The result contains all

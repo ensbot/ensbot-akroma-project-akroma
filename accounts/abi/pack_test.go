@@ -24,7 +24,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/trinityfx/trinity/common"
+	"github.com/akroma-project/akroma/common"
 )
 
 func TestPack(t *testing.T) {

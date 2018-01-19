@@ -26,8 +26,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/log"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/log"
 )
 
 // faucetDockerfile is the Dockerfile required to build an faucet container to

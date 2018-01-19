@@ -21,7 +21,7 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/trinityfx/trinity/log"
+	"github.com/akroma-project/akroma/log"
 )
 
 /*

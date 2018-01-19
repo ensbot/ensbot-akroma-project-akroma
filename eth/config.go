@@ -23,13 +23,13 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/common/hexutil"
-	"github.com/trinityfx/trinity/consensus/ethash"
-	"github.com/trinityfx/trinity/core"
-	"github.com/trinityfx/trinity/eth/downloader"
-	"github.com/trinityfx/trinity/eth/gasprice"
-	"github.com/trinityfx/trinity/params"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/common/hexutil"
+	"github.com/akroma-project/akroma/consensus/ethash"
+	"github.com/akroma-project/akroma/core"
+	"github.com/akroma-project/akroma/eth/downloader"
+	"github.com/akroma-project/akroma/eth/gasprice"
+	"github.com/akroma-project/akroma/params"
 )
 
 // DefaultConfig contains default settings for use on the Ethereum main net.

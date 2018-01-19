@@ -19,10 +19,10 @@ package downloader
 import (
 	"math/big"
 
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/core"
-	"github.com/trinityfx/trinity/core/types"
-	"github.com/trinityfx/trinity/ethdb"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/core"
+	"github.com/akroma-project/akroma/core/types"
+	"github.com/akroma-project/akroma/ethdb"
 )
 
 // FakePeer is a mock downloader peer that operates on a local database instance

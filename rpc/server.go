@@ -25,7 +25,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/trinityfx/trinity/log"
+	"github.com/akroma-project/akroma/log"
 	"gopkg.in/fatih/set.v0"
 )
 

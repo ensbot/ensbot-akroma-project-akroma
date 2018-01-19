@@ -22,7 +22,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/trinityfx/trinity/log"
+	"github.com/akroma-project/akroma/log"
 )
 
 const (

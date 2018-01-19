@@ -27,8 +27,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/crypto"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/crypto"
 )
 
 func tmpKeyStoreIface(t *testing.T, encrypted bool) (dir string, ks keyStore) {

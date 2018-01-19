@@ -25,11 +25,11 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/common/hexutil"
-	"github.com/trinityfx/trinity/core/vm"
-	"github.com/trinityfx/trinity/crypto"
-	"github.com/trinityfx/trinity/log"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/common/hexutil"
+	"github.com/akroma-project/akroma/core/vm"
+	"github.com/akroma-project/akroma/crypto"
+	"github.com/akroma-project/akroma/log"
 	duktape "gopkg.in/olebedev/go-duktape.v3"
 )
 

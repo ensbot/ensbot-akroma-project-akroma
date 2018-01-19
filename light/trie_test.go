@@ -23,13 +23,13 @@ import (
 	"testing"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/trinityfx/trinity/consensus/ethash"
-	"github.com/trinityfx/trinity/core"
-	"github.com/trinityfx/trinity/core/state"
-	"github.com/trinityfx/trinity/core/vm"
-	"github.com/trinityfx/trinity/ethdb"
-	"github.com/trinityfx/trinity/params"
-	"github.com/trinityfx/trinity/trie"
+	"github.com/akroma-project/akroma/consensus/ethash"
+	"github.com/akroma-project/akroma/core"
+	"github.com/akroma-project/akroma/core/state"
+	"github.com/akroma-project/akroma/core/vm"
+	"github.com/akroma-project/akroma/ethdb"
+	"github.com/akroma-project/akroma/params"
+	"github.com/akroma-project/akroma/trie"
 )
 
 func TestNodeIterator(t *testing.T) {

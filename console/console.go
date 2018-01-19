@@ -27,9 +27,9 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/trinityfx/trinity/internal/jsre"
-	"github.com/trinityfx/trinity/internal/web3ext"
-	"github.com/trinityfx/trinity/rpc"
+	"github.com/akroma-project/akroma/internal/jsre"
+	"github.com/akroma-project/akroma/internal/web3ext"
+	"github.com/akroma-project/akroma/rpc"
 	"github.com/mattn/go-colorable"
 	"github.com/peterh/liner"
 	"github.com/robertkrimen/otto"

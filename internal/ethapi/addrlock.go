@@ -19,7 +19,7 @@ package ethapi
 import (
 	"sync"
 
-	"github.com/trinityfx/trinity/common"
+	"github.com/akroma-project/akroma/common"
 )
 
 type AddrLocker struct {

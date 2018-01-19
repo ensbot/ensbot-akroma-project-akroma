@@ -22,8 +22,8 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/ethdb"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/ethdb"
 )
 
 func TestIterator(t *testing.T) {

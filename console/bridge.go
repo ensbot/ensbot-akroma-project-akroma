@@ -23,9 +23,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/trinityfx/trinity/accounts/usbwallet"
-	"github.com/trinityfx/trinity/log"
-	"github.com/trinityfx/trinity/rpc"
+	"github.com/akroma-project/akroma/accounts/usbwallet"
+	"github.com/akroma-project/akroma/log"
+	"github.com/akroma-project/akroma/rpc"
 	"github.com/robertkrimen/otto"
 )
 

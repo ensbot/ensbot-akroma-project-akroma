@@ -24,7 +24,7 @@ import (
 	"path/filepath"
 	"strconv"
 
-	"github.com/trinityfx/trinity/log"
+	"github.com/akroma-project/akroma/log"
 )
 
 // nginxDockerfile is theis the Dockerfile required to build an nginx reverse-

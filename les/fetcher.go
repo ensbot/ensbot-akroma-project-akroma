@@ -22,13 +22,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/common/mclock"
-	"github.com/trinityfx/trinity/consensus"
-	"github.com/trinityfx/trinity/core"
-	"github.com/trinityfx/trinity/core/types"
-	"github.com/trinityfx/trinity/light"
-	"github.com/trinityfx/trinity/log"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/common/mclock"
+	"github.com/akroma-project/akroma/consensus"
+	"github.com/akroma-project/akroma/core"
+	"github.com/akroma-project/akroma/core/types"
+	"github.com/akroma-project/akroma/light"
+	"github.com/akroma-project/akroma/log"
 )
 
 const (

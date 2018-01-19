@@ -22,13 +22,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/crypto"
-	"github.com/trinityfx/trinity/crypto/ecies"
-	"github.com/trinityfx/trinity/event/filter"
-	"github.com/trinityfx/trinity/log"
-	"github.com/trinityfx/trinity/p2p"
-	"github.com/trinityfx/trinity/rpc"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/crypto"
+	"github.com/akroma-project/akroma/crypto/ecies"
+	"github.com/akroma-project/akroma/event/filter"
+	"github.com/akroma-project/akroma/log"
+	"github.com/akroma-project/akroma/p2p"
+	"github.com/akroma-project/akroma/rpc"
 
 	"gopkg.in/fatih/set.v0"
 )

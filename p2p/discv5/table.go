@@ -29,7 +29,7 @@ import (
 	"net"
 	"sort"
 
-	"github.com/trinityfx/trinity/common"
+	"github.com/akroma-project/akroma/common"
 )
 
 const (

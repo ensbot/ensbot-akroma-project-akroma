@@ -27,8 +27,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/trinityfx/trinity/swarm/api"
-	"github.com/trinityfx/trinity/swarm/storage"
+	"github.com/akroma-project/akroma/swarm/api"
+	"github.com/akroma-project/akroma/swarm/storage"
 )
 
 type fileInfo struct {

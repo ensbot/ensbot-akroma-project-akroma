@@ -23,10 +23,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/trinityfx/trinity/cmd/utils"
-	"github.com/trinityfx/trinity/console"
-	"github.com/trinityfx/trinity/node"
-	"github.com/trinityfx/trinity/rpc"
+	"github.com/akroma-project/akroma/cmd/utils"
+	"github.com/akroma-project/akroma/console"
+	"github.com/akroma-project/akroma/node"
+	"github.com/akroma-project/akroma/rpc"
 	"gopkg.in/urfave/cli.v1"
 )
 
@@ -42,7 +42,7 @@ var (
 		Description: `
 The Geth console is an interactive shell for the JavaScript runtime environment
 which exposes a node admin interface as well as the Ðapp JavaScript API.
-See https://github.com/trinityfx/trinity/wiki/Javascipt-Console.`,
+See https://github.com/akroma-project/akroma/wiki/Javascipt-Console.`,
 	}
 
 	attachCommand = cli.Command{
@@ -55,7 +55,7 @@ See https://github.com/trinityfx/trinity/wiki/Javascipt-Console.`,
 		Description: `
 The Geth console is an interactive shell for the JavaScript runtime environment
 which exposes a node admin interface as well as the Ðapp JavaScript API.
-See https://github.com/trinityfx/trinity/wiki/Javascipt-Console.
+See https://github.com/akroma-project/akroma/wiki/Javascipt-Console.
 This command allows to open a console on a running geth node.`,
 	}
 
@@ -68,7 +68,7 @@ This command allows to open a console on a running geth node.`,
 		Category:  "CONSOLE COMMANDS",
 		Description: `
 The JavaScript VM exposes a node admin interface as well as the Ðapp
-JavaScript API. See https://github.com/trinityfx/trinity/wiki/Javascipt-Console`,
+JavaScript API. See https://github.com/akroma-project/akroma/wiki/Javascipt-Console`,
 	}
 )
 

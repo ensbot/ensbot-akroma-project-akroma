@@ -21,9 +21,9 @@ import (
 	"hash"
 	"sync"
 
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/crypto/sha3"
-	"github.com/trinityfx/trinity/rlp"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/crypto/sha3"
+	"github.com/akroma-project/akroma/rlp"
 )
 
 // calculator is a utility used by the hasher to calculate the hash value of the tree node.

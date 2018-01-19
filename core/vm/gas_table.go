@@ -19,9 +19,9 @@ package vm
 import (
 	"math/big"
 
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/common/math"
-	"github.com/trinityfx/trinity/params"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/common/math"
+	"github.com/akroma-project/akroma/params"
 )
 
 // memoryGasCosts calculates the quadratic gas for memory expansion. It does so

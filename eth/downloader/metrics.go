@@ -19,7 +19,7 @@
 package downloader
 
 import (
-	"github.com/trinityfx/trinity/metrics"
+	"github.com/akroma-project/akroma/metrics"
 )
 
 var (

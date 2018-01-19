@@ -29,12 +29,12 @@ import (
 	"strings"
 	"text/tabwriter"
 
-	"github.com/trinityfx/trinity/crypto"
-	"github.com/trinityfx/trinity/p2p"
-	"github.com/trinityfx/trinity/p2p/discover"
-	"github.com/trinityfx/trinity/p2p/simulations"
-	"github.com/trinityfx/trinity/p2p/simulations/adapters"
-	"github.com/trinityfx/trinity/rpc"
+	"github.com/akroma-project/akroma/crypto"
+	"github.com/akroma-project/akroma/p2p"
+	"github.com/akroma-project/akroma/p2p/discover"
+	"github.com/akroma-project/akroma/p2p/simulations"
+	"github.com/akroma-project/akroma/p2p/simulations/adapters"
+	"github.com/akroma-project/akroma/rpc"
 	"gopkg.in/urfave/cli.v1"
 )
 

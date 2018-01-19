@@ -25,10 +25,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/trinityfx/trinity/crypto"
-	"github.com/trinityfx/trinity/crypto/sha3"
-	"github.com/trinityfx/trinity/log"
-	"github.com/trinityfx/trinity/p2p/discover"
+	"github.com/akroma-project/akroma/crypto"
+	"github.com/akroma-project/akroma/crypto/sha3"
+	"github.com/akroma-project/akroma/log"
+	"github.com/akroma-project/akroma/p2p/discover"
 )
 
 func init() {

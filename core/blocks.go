@@ -16,7 +16,7 @@
 
 package core
 
-import "github.com/trinityfx/trinity/common"
+import "github.com/akroma-project/akroma/common"
 
 // BadHashes represent a set of manually tracked bad hashes (usually hard forks)
 var BadHashes = map[common.Hash]bool{

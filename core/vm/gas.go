@@ -19,7 +19,7 @@ package vm
 import (
 	"math/big"
 
-	"github.com/trinityfx/trinity/params"
+	"github.com/akroma-project/akroma/params"
 )
 
 const (

@@ -19,7 +19,7 @@ package vm
 import (
 	"fmt"
 
-	"github.com/trinityfx/trinity/params"
+	"github.com/akroma-project/akroma/params"
 )
 
 func makeStackFunc(pop, push int) stackValidationFunc {

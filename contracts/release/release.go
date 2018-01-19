@@ -25,15 +25,15 @@ import (
 	"strings"
 	"time"
 
-	"github.com/trinityfx/trinity/accounts/abi/bind"
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/eth"
-	"github.com/trinityfx/trinity/internal/ethapi"
-	"github.com/trinityfx/trinity/les"
-	"github.com/trinityfx/trinity/log"
-	"github.com/trinityfx/trinity/node"
-	"github.com/trinityfx/trinity/p2p"
-	"github.com/trinityfx/trinity/rpc"
+	"github.com/akroma-project/akroma/accounts/abi/bind"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/eth"
+	"github.com/akroma-project/akroma/internal/ethapi"
+	"github.com/akroma-project/akroma/les"
+	"github.com/akroma-project/akroma/log"
+	"github.com/akroma-project/akroma/node"
+	"github.com/akroma-project/akroma/p2p"
+	"github.com/akroma-project/akroma/rpc"
 )
 
 // Interval to check for new releases
@@ -149,7 +149,7 @@ func (r *ReleaseService) checkVersion() {
 
 		warning := fmt.Sprintf("Client v%d.%d.%d-%x seems older than the latest upstream release v%d.%d.%d-%x",
 			r.config.Major, r.config.Minor, r.config.Patch, r.config.Commit[:4], version.Major, version.Minor, version.Patch, version.Commit[:4])
-		howtofix := fmt.Sprintf("Please check https://github.com/trinityfx/trinity/releases for new releases")
+		howtofix := fmt.Sprintf("Please check https://github.com/akroma-project/akroma/releases for new releases")
 		separator := strings.Repeat("-", len(warning))
 
 		log.Warn(separator)

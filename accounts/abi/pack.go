@@ -20,8 +20,8 @@ import (
 	"math/big"
 	"reflect"
 
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/common/math"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/common/math"
 )
 
 // packBytesSlice packs the given bytes as [L, V] as the canonical representation

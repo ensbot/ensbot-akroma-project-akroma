@@ -22,8 +22,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/trinityfx/trinity/log"
-	"github.com/trinityfx/trinity/metrics"
+	"github.com/akroma-project/akroma/log"
+	"github.com/akroma-project/akroma/metrics"
 	"github.com/syndtr/goleveldb/leveldb"
 	"github.com/syndtr/goleveldb/leveldb/errors"
 	"github.com/syndtr/goleveldb/leveldb/filter"

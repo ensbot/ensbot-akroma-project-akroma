@@ -26,11 +26,11 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/common/bitutil"
-	"github.com/trinityfx/trinity/crypto"
-	"github.com/trinityfx/trinity/crypto/sha3"
-	"github.com/trinityfx/trinity/log"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/common/bitutil"
+	"github.com/akroma-project/akroma/crypto"
+	"github.com/akroma-project/akroma/crypto/sha3"
+	"github.com/akroma-project/akroma/log"
 )
 
 const (

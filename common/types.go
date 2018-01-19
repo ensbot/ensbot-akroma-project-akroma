@@ -23,8 +23,8 @@ import (
 	"math/rand"
 	"reflect"
 
-	"github.com/trinityfx/trinity/common/hexutil"
-	"github.com/trinityfx/trinity/crypto/sha3"
+	"github.com/akroma-project/akroma/common/hexutil"
+	"github.com/akroma-project/akroma/crypto/sha3"
 )
 
 const (

@@ -37,12 +37,12 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/trinityfx/trinity/contracts/chequebook"
-	"github.com/trinityfx/trinity/log"
-	"github.com/trinityfx/trinity/p2p"
-	bzzswap "github.com/trinityfx/trinity/swarm/services/swap"
-	"github.com/trinityfx/trinity/swarm/services/swap/swap"
-	"github.com/trinityfx/trinity/swarm/storage"
+	"github.com/akroma-project/akroma/contracts/chequebook"
+	"github.com/akroma-project/akroma/log"
+	"github.com/akroma-project/akroma/p2p"
+	bzzswap "github.com/akroma-project/akroma/swarm/services/swap"
+	"github.com/akroma-project/akroma/swarm/services/swap/swap"
+	"github.com/akroma-project/akroma/swarm/storage"
 )
 
 const (

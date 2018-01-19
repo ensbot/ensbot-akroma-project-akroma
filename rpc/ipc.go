@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/trinityfx/trinity/log"
+	"github.com/akroma-project/akroma/log"
 )
 
 // CreateIPCListener creates an listener, on Unix platforms this is a unix socket, on

@@ -23,12 +23,12 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/core/types"
-	"github.com/trinityfx/trinity/crypto"
-	"github.com/trinityfx/trinity/log"
-	"github.com/trinityfx/trinity/rlp"
-	"github.com/trinityfx/trinity/trie"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/core/types"
+	"github.com/akroma-project/akroma/crypto"
+	"github.com/akroma-project/akroma/log"
+	"github.com/akroma-project/akroma/rlp"
+	"github.com/akroma-project/akroma/trie"
 )
 
 type revision struct {

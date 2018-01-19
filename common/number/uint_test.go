@@ -20,7 +20,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/trinityfx/trinity/common"
+	"github.com/akroma-project/akroma/common"
 )
 
 func TestSet(t *testing.T) {

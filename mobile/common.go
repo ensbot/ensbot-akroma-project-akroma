@@ -24,7 +24,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/trinityfx/trinity/common"
+	"github.com/akroma-project/akroma/common"
 )
 
 // Hash represents the 32 byte Keccak256 hash of arbitrary data.

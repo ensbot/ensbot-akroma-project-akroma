@@ -21,11 +21,11 @@ import (
 	"bytes"
 	"time"
 
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/core"
-	"github.com/trinityfx/trinity/ethdb"
-	"github.com/trinityfx/trinity/log"
-	"github.com/trinityfx/trinity/rlp"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/core"
+	"github.com/akroma-project/akroma/ethdb"
+	"github.com/akroma-project/akroma/log"
+	"github.com/akroma-project/akroma/rlp"
 )
 
 var deduplicateData = []byte("dbUpgrade_20170714deduplicateData")

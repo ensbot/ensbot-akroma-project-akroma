@@ -19,9 +19,9 @@ package misc
 import (
 	"fmt"
 
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/core/types"
-	"github.com/trinityfx/trinity/params"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/core/types"
+	"github.com/akroma-project/akroma/params"
 )
 
 // VerifyForkHashes verifies that blocks conforming to network hard-forks do have

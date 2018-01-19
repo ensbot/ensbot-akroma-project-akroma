@@ -23,8 +23,8 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/trinityfx/trinity/common/mclock"
-	"github.com/trinityfx/trinity/log"
+	"github.com/akroma-project/akroma/common/mclock"
+	"github.com/akroma-project/akroma/log"
 )
 
 const (

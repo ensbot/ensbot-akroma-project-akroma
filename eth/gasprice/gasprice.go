@@ -22,10 +22,10 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/internal/ethapi"
-	"github.com/trinityfx/trinity/params"
-	"github.com/trinityfx/trinity/rpc"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/internal/ethapi"
+	"github.com/akroma-project/akroma/params"
+	"github.com/akroma-project/akroma/rpc"
 )
 
 var maxPrice = big.NewInt(500 * params.Shannon)

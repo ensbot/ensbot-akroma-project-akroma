@@ -22,7 +22,7 @@ package storage
 import (
 	"fmt"
 
-	"github.com/trinityfx/trinity/compression/rle"
+	"github.com/akroma-project/akroma/compression/rle"
 	"github.com/syndtr/goleveldb/leveldb"
 	"github.com/syndtr/goleveldb/leveldb/iterator"
 	"github.com/syndtr/goleveldb/leveldb/opt"

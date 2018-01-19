@@ -28,13 +28,13 @@ import (
 
 	cli "gopkg.in/urfave/cli.v1"
 
-	"github.com/trinityfx/trinity/cmd/utils"
-	"github.com/trinityfx/trinity/contracts/release"
-	"github.com/trinityfx/trinity/dashboard"
-	"github.com/trinityfx/trinity/eth"
-	"github.com/trinityfx/trinity/node"
-	"github.com/trinityfx/trinity/params"
-	whisper "github.com/trinityfx/trinity/whisper/whisperv5"
+	"github.com/akroma-project/akroma/cmd/utils"
+	"github.com/akroma-project/akroma/contracts/release"
+	"github.com/akroma-project/akroma/dashboard"
+	"github.com/akroma-project/akroma/eth"
+	"github.com/akroma-project/akroma/node"
+	"github.com/akroma-project/akroma/params"
+	whisper "github.com/akroma-project/akroma/whisper/whisperv5"
 	"github.com/naoina/toml"
 )
 

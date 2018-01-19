@@ -25,14 +25,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/common/mclock"
-	"github.com/trinityfx/trinity/event"
-	"github.com/trinityfx/trinity/log"
-	"github.com/trinityfx/trinity/p2p/discover"
-	"github.com/trinityfx/trinity/p2p/discv5"
-	"github.com/trinityfx/trinity/p2p/nat"
-	"github.com/trinityfx/trinity/p2p/netutil"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/common/mclock"
+	"github.com/akroma-project/akroma/event"
+	"github.com/akroma-project/akroma/log"
+	"github.com/akroma-project/akroma/p2p/discover"
+	"github.com/akroma-project/akroma/p2p/discv5"
+	"github.com/akroma-project/akroma/p2p/nat"
+	"github.com/akroma-project/akroma/p2p/netutil"
 )
 
 const (

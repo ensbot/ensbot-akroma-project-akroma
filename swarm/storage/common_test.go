@@ -24,7 +24,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/trinityfx/trinity/log"
+	"github.com/akroma-project/akroma/log"
 )
 
 type brokenLimitedReader struct {

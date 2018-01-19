@@ -23,10 +23,10 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/trinityfx/trinity/core/state"
-	"github.com/trinityfx/trinity/core/vm"
-	"github.com/trinityfx/trinity/log"
-	"github.com/trinityfx/trinity/tests"
+	"github.com/akroma-project/akroma/core/state"
+	"github.com/akroma-project/akroma/core/vm"
+	"github.com/akroma-project/akroma/log"
+	"github.com/akroma-project/akroma/tests"
 
 	cli "gopkg.in/urfave/cli.v1"
 )

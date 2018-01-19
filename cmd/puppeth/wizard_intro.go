@@ -26,7 +26,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/trinityfx/trinity/log"
+	"github.com/akroma-project/akroma/log"
 )
 
 // makeWizard creates and returns a new puppeth wizard.

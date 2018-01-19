@@ -20,7 +20,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/trinityfx/trinity/common"
+	"github.com/akroma-project/akroma/common"
 	"gopkg.in/karalabe/cookiejar.v2/collections/prque"
 )
 

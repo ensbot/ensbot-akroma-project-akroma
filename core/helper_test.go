@@ -20,9 +20,9 @@ import (
 	"container/list"
 	"fmt"
 
-	"github.com/trinityfx/trinity/core/types"
-	"github.com/trinityfx/trinity/ethdb"
-	"github.com/trinityfx/trinity/event"
+	"github.com/akroma-project/akroma/core/types"
+	"github.com/akroma-project/akroma/ethdb"
+	"github.com/akroma-project/akroma/event"
 )
 
 // Implement our EthTest Manager

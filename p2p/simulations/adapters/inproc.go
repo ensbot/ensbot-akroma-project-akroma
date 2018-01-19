@@ -23,12 +23,12 @@ import (
 	"net"
 	"sync"
 
-	"github.com/trinityfx/trinity/event"
-	"github.com/trinityfx/trinity/log"
-	"github.com/trinityfx/trinity/node"
-	"github.com/trinityfx/trinity/p2p"
-	"github.com/trinityfx/trinity/p2p/discover"
-	"github.com/trinityfx/trinity/rpc"
+	"github.com/akroma-project/akroma/event"
+	"github.com/akroma-project/akroma/log"
+	"github.com/akroma-project/akroma/node"
+	"github.com/akroma-project/akroma/p2p"
+	"github.com/akroma-project/akroma/p2p/discover"
+	"github.com/akroma-project/akroma/rpc"
 )
 
 // SimAdapter is a NodeAdapter which creates in-memory simulation nodes and

@@ -5,7 +5,7 @@ package whisperv6
 import (
 	"encoding/json"
 
-	"github.com/trinityfx/trinity/common/hexutil"
+	"github.com/akroma-project/akroma/common/hexutil"
 )
 
 var _ = (*newMessageOverride)(nil)

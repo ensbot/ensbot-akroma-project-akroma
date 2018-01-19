@@ -25,7 +25,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/trinityfx/trinity/log"
+	"github.com/akroma-project/akroma/log"
 )
 
 // ethstatsDockerfile is the Dockerfile required to build an ethstats backend

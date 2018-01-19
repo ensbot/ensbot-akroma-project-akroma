@@ -20,7 +20,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/trinityfx/trinity/common/hexutil"
+	"github.com/akroma-project/akroma/common/hexutil"
 )
 
 type MyType [5]byte

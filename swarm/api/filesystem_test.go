@@ -24,8 +24,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/swarm/storage"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/swarm/storage"
 )
 
 var testDownloadDir, _ = ioutil.TempDir(os.TempDir(), "bzz-test")

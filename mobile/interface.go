@@ -22,7 +22,7 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/trinityfx/trinity/common"
+	"github.com/akroma-project/akroma/common"
 )
 
 // Interface represents a wrapped version of Go's interface{}, with the capacity

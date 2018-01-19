@@ -25,7 +25,7 @@ import (
 	"sort"
 	"time"
 
-	"github.com/trinityfx/trinity/log"
+	"github.com/akroma-project/akroma/log"
 )
 
 const (

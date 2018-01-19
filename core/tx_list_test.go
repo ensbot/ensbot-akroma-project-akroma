@@ -21,8 +21,8 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/trinityfx/trinity/core/types"
-	"github.com/trinityfx/trinity/crypto"
+	"github.com/akroma-project/akroma/core/types"
+	"github.com/akroma-project/akroma/crypto"
 )
 
 // Tests that transactions can be added to strict lists and list contents and

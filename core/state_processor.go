@@ -19,14 +19,14 @@ package core
 import (
 	"math/big"
 
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/consensus"
-	"github.com/trinityfx/trinity/consensus/misc"
-	"github.com/trinityfx/trinity/core/state"
-	"github.com/trinityfx/trinity/core/types"
-	"github.com/trinityfx/trinity/core/vm"
-	"github.com/trinityfx/trinity/crypto"
-	"github.com/trinityfx/trinity/params"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/consensus"
+	"github.com/akroma-project/akroma/consensus/misc"
+	"github.com/akroma-project/akroma/core/state"
+	"github.com/akroma-project/akroma/core/types"
+	"github.com/akroma-project/akroma/core/vm"
+	"github.com/akroma-project/akroma/crypto"
+	"github.com/akroma-project/akroma/params"
 )
 
 // StateProcessor is a basic Processor, which takes care of transitioning

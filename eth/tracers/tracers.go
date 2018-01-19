@@ -21,7 +21,7 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/trinityfx/trinity/eth/tracers/internal/tracers"
+	"github.com/akroma-project/akroma/eth/tracers/internal/tracers"
 )
 
 // all contains all the built in JavaScript tracers by name.

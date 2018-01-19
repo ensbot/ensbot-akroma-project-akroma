@@ -19,9 +19,9 @@ package core
 import (
 	"math/big"
 
-	"github.com/trinityfx/trinity/core/state"
-	"github.com/trinityfx/trinity/core/types"
-	"github.com/trinityfx/trinity/core/vm"
+	"github.com/akroma-project/akroma/core/state"
+	"github.com/akroma-project/akroma/core/types"
+	"github.com/akroma-project/akroma/core/vm"
 )
 
 // Validator is an interface which defines the standard for block validation. It

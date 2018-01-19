@@ -36,7 +36,7 @@ import (
 	"math/big"
 	"unsafe"
 
-	"github.com/trinityfx/trinity/common/math"
+	"github.com/akroma-project/akroma/common/math"
 )
 
 /*

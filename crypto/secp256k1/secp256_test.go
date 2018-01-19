@@ -24,8 +24,8 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/trinityfx/trinity/common/math"
-	"github.com/trinityfx/trinity/crypto/randentropy"
+	"github.com/akroma-project/akroma/common/math"
+	"github.com/akroma-project/akroma/crypto/randentropy"
 )
 
 const TestCount = 1000

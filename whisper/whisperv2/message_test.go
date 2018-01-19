@@ -22,7 +22,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/trinityfx/trinity/crypto"
+	"github.com/akroma-project/akroma/crypto"
 )
 
 // Tests whether a message can be wrapped without any identity or encryption.

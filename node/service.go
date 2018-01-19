@@ -19,11 +19,11 @@ package node
 import (
 	"reflect"
 
-	"github.com/trinityfx/trinity/accounts"
-	"github.com/trinityfx/trinity/ethdb"
-	"github.com/trinityfx/trinity/event"
-	"github.com/trinityfx/trinity/p2p"
-	"github.com/trinityfx/trinity/rpc"
+	"github.com/akroma-project/akroma/accounts"
+	"github.com/akroma-project/akroma/ethdb"
+	"github.com/akroma-project/akroma/event"
+	"github.com/akroma-project/akroma/p2p"
+	"github.com/akroma-project/akroma/rpc"
 )
 
 // ServiceContext is a collection of service independent options inherited from

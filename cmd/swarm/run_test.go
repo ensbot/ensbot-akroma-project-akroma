@@ -27,13 +27,13 @@ import (
 	"time"
 
 	"github.com/docker/docker/pkg/reexec"
-	"github.com/trinityfx/trinity/accounts"
-	"github.com/trinityfx/trinity/accounts/keystore"
-	"github.com/trinityfx/trinity/internal/cmdtest"
-	"github.com/trinityfx/trinity/node"
-	"github.com/trinityfx/trinity/p2p"
-	"github.com/trinityfx/trinity/rpc"
-	"github.com/trinityfx/trinity/swarm"
+	"github.com/akroma-project/akroma/accounts"
+	"github.com/akroma-project/akroma/accounts/keystore"
+	"github.com/akroma-project/akroma/internal/cmdtest"
+	"github.com/akroma-project/akroma/node"
+	"github.com/akroma-project/akroma/p2p"
+	"github.com/akroma-project/akroma/rpc"
+	"github.com/akroma-project/akroma/swarm"
 )
 
 func init() {

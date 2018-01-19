@@ -17,7 +17,7 @@
 package fuse
 
 import (
-	"github.com/trinityfx/trinity/swarm/api"
+	"github.com/akroma-project/akroma/swarm/api"
 	"sync"
 	"time"
 )

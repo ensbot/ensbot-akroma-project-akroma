@@ -20,9 +20,9 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/rlp"
-	"github.com/trinityfx/trinity/trie"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/rlp"
+	"github.com/akroma-project/akroma/trie"
 )
 
 type DumpAccount struct {

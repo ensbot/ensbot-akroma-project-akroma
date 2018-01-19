@@ -23,7 +23,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/trinityfx/trinity/common/hexutil"
+	"github.com/akroma-project/akroma/common/hexutil"
 	"gopkg.in/fatih/set.v0"
 )
 

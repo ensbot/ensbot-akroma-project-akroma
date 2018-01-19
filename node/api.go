@@ -22,11 +22,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/trinityfx/trinity/common/hexutil"
-	"github.com/trinityfx/trinity/crypto"
-	"github.com/trinityfx/trinity/p2p"
-	"github.com/trinityfx/trinity/p2p/discover"
-	"github.com/trinityfx/trinity/rpc"
+	"github.com/akroma-project/akroma/common/hexutil"
+	"github.com/akroma-project/akroma/crypto"
+	"github.com/akroma-project/akroma/p2p"
+	"github.com/akroma-project/akroma/p2p/discover"
+	"github.com/akroma-project/akroma/rpc"
 	"github.com/rcrowley/go-metrics"
 )
 

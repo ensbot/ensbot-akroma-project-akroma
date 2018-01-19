@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/trinityfx/trinity/node"
-	"github.com/trinityfx/trinity/p2p"
-	"github.com/trinityfx/trinity/rpc"
+	"github.com/akroma-project/akroma/node"
+	"github.com/akroma-project/akroma/p2p"
+	"github.com/akroma-project/akroma/rpc"
 )
 
 // SampleService is a trivial network service that can be attached to a node for

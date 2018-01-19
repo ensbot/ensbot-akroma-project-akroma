@@ -25,7 +25,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/trinityfx/trinity/log"
+	"github.com/akroma-project/akroma/log"
 )
 
 // walletDockerfile is the Dockerfile required to run a web wallet.

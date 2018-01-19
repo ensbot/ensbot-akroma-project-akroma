@@ -25,14 +25,14 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/trinityfx/trinity/accounts"
-	"github.com/trinityfx/trinity/accounts/keystore"
-	"github.com/trinityfx/trinity/accounts/usbwallet"
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/crypto"
-	"github.com/trinityfx/trinity/log"
-	"github.com/trinityfx/trinity/p2p"
-	"github.com/trinityfx/trinity/p2p/discover"
+	"github.com/akroma-project/akroma/accounts"
+	"github.com/akroma-project/akroma/accounts/keystore"
+	"github.com/akroma-project/akroma/accounts/usbwallet"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/crypto"
+	"github.com/akroma-project/akroma/log"
+	"github.com/akroma-project/akroma/p2p"
+	"github.com/akroma-project/akroma/p2p/discover"
 )
 
 const (

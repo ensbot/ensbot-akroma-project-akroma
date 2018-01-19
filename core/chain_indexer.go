@@ -23,11 +23,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/core/types"
-	"github.com/trinityfx/trinity/ethdb"
-	"github.com/trinityfx/trinity/event"
-	"github.com/trinityfx/trinity/log"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/core/types"
+	"github.com/akroma-project/akroma/ethdb"
+	"github.com/akroma-project/akroma/event"
+	"github.com/akroma-project/akroma/log"
 )
 
 // ChainIndexerBackend defines the methods needed to process chain segments in

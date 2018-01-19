@@ -21,7 +21,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/trinityfx/trinity/common"
+	"github.com/akroma-project/akroma/common"
 )
 
 func (Address) Generate(rand *rand.Rand, size int) reflect.Value {

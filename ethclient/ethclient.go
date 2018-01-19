@@ -24,12 +24,12 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/trinityfx/trinity"
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/common/hexutil"
-	"github.com/trinityfx/trinity/core/types"
-	"github.com/trinityfx/trinity/rlp"
-	"github.com/trinityfx/trinity/rpc"
+	"github.com/akroma-project/akroma"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/common/hexutil"
+	"github.com/akroma-project/akroma/core/types"
+	"github.com/akroma-project/akroma/rlp"
+	"github.com/akroma-project/akroma/rpc"
 )
 
 // Client defines typed wrappers for the Ethereum RPC API.

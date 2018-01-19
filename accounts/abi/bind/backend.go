@@ -21,9 +21,9 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/trinityfx/trinity"
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/core/types"
+	"github.com/akroma-project/akroma"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/core/types"
 )
 
 var (

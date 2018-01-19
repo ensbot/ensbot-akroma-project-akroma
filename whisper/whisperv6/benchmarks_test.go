@@ -20,7 +20,7 @@ import (
 	"crypto/sha256"
 	"testing"
 
-	"github.com/trinityfx/trinity/crypto"
+	"github.com/akroma-project/akroma/crypto"
 	"golang.org/x/crypto/pbkdf2"
 )
 

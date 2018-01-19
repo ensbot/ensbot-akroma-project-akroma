@@ -28,9 +28,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/trinityfx/trinity/crypto"
-	"github.com/trinityfx/trinity/log"
-	"github.com/trinityfx/trinity/rlp"
+	"github.com/akroma-project/akroma/crypto"
+	"github.com/akroma-project/akroma/log"
+	"github.com/akroma-project/akroma/rlp"
 	"github.com/syndtr/goleveldb/leveldb"
 	"github.com/syndtr/goleveldb/leveldb/errors"
 	"github.com/syndtr/goleveldb/leveldb/iterator"

@@ -20,8 +20,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/crypto"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/crypto"
 )
 
 func TestConfig(t *testing.T) {

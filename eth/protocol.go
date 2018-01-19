@@ -21,11 +21,11 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/core"
-	"github.com/trinityfx/trinity/core/types"
-	"github.com/trinityfx/trinity/event"
-	"github.com/trinityfx/trinity/rlp"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/core"
+	"github.com/akroma-project/akroma/core/types"
+	"github.com/akroma-project/akroma/event"
+	"github.com/akroma-project/akroma/rlp"
 )
 
 // Constants to match up protocol versions and messages

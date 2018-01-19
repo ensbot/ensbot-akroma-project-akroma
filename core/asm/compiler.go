@@ -23,8 +23,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/trinityfx/trinity/common/math"
-	"github.com/trinityfx/trinity/core/vm"
+	"github.com/akroma-project/akroma/common/math"
+	"github.com/akroma-project/akroma/core/vm"
 )
 
 // Compiler contains information about the parsed source

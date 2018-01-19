@@ -21,9 +21,9 @@ import (
 	"testing"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/core/state"
-	"github.com/trinityfx/trinity/ethdb"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/core/state"
+	"github.com/akroma-project/akroma/ethdb"
 )
 
 var dumper = spew.ConfigState{Indent: "    "}

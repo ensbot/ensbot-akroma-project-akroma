@@ -19,8 +19,8 @@
 package whisperv6
 
 import (
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/common/hexutil"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/common/hexutil"
 )
 
 // Topic represents a cryptographically secure, probabilistic partial

@@ -21,8 +21,8 @@ import (
 	mrand "math/rand"
 	"testing"
 
-	"github.com/trinityfx/trinity/crypto"
-	"github.com/trinityfx/trinity/rlp"
+	"github.com/akroma-project/akroma/crypto"
+	"github.com/akroma-project/akroma/rlp"
 )
 
 func generateMessageParams() (*MessageParams, error) {

@@ -29,9 +29,9 @@ import (
 
 	"bazil.org/fuse"
 	"bazil.org/fuse/fs"
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/log"
-	"github.com/trinityfx/trinity/swarm/api"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/log"
+	"github.com/akroma-project/akroma/swarm/api"
 )
 
 var (

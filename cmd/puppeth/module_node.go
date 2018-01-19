@@ -26,8 +26,8 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/log"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/log"
 )
 
 // nodeDockerfile is the Dockerfile required to run an Ethereum node.

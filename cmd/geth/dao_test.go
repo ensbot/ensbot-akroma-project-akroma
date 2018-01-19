@@ -23,10 +23,10 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/core"
-	"github.com/trinityfx/trinity/ethdb"
-	"github.com/trinityfx/trinity/params"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/core"
+	"github.com/akroma-project/akroma/ethdb"
+	"github.com/akroma-project/akroma/params"
 )
 
 // Genesis block for nodes which don't care about the DAO fork (i.e. not configured)

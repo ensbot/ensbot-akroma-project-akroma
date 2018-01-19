@@ -22,9 +22,9 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/common/math"
-	"github.com/trinityfx/trinity/core/vm"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/common/math"
+	"github.com/akroma-project/akroma/core/vm"
 )
 
 type JSONLogger struct {

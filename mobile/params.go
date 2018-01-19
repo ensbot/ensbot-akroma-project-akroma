@@ -21,9 +21,9 @@ package geth
 import (
 	"encoding/json"
 
-	"github.com/trinityfx/trinity/core"
-	"github.com/trinityfx/trinity/p2p/discv5"
-	"github.com/trinityfx/trinity/params"
+	"github.com/akroma-project/akroma/core"
+	"github.com/akroma-project/akroma/p2p/discv5"
+	"github.com/akroma-project/akroma/params"
 )
 
 // MainnetGenesis returns the JSON spec to use for the main Ethereum network. It

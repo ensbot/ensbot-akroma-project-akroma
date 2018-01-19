@@ -21,17 +21,17 @@ import (
 	"context"
 	"math/big"
 
-	"github.com/trinityfx/trinity/accounts"
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/core"
-	"github.com/trinityfx/trinity/core/state"
-	"github.com/trinityfx/trinity/core/types"
-	"github.com/trinityfx/trinity/core/vm"
-	"github.com/trinityfx/trinity/eth/downloader"
-	"github.com/trinityfx/trinity/ethdb"
-	"github.com/trinityfx/trinity/event"
-	"github.com/trinityfx/trinity/params"
-	"github.com/trinityfx/trinity/rpc"
+	"github.com/akroma-project/akroma/accounts"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/core"
+	"github.com/akroma-project/akroma/core/state"
+	"github.com/akroma-project/akroma/core/types"
+	"github.com/akroma-project/akroma/core/vm"
+	"github.com/akroma-project/akroma/eth/downloader"
+	"github.com/akroma-project/akroma/ethdb"
+	"github.com/akroma-project/akroma/event"
+	"github.com/akroma-project/akroma/params"
+	"github.com/akroma-project/akroma/rpc"
 )
 
 // Backend interface provides the common API services (that are provided by

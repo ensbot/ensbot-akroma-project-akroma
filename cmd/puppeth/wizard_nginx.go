@@ -19,7 +19,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/trinityfx/trinity/log"
+	"github.com/akroma-project/akroma/log"
 )
 
 // ensureVirtualHost checks whether a reverse-proxy is running on the specified

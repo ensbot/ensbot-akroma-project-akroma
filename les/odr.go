@@ -19,10 +19,10 @@ package les
 import (
 	"context"
 
-	"github.com/trinityfx/trinity/core"
-	"github.com/trinityfx/trinity/ethdb"
-	"github.com/trinityfx/trinity/light"
-	"github.com/trinityfx/trinity/log"
+	"github.com/akroma-project/akroma/core"
+	"github.com/akroma-project/akroma/ethdb"
+	"github.com/akroma-project/akroma/light"
+	"github.com/akroma-project/akroma/log"
 )
 
 // LesOdr implements light.OdrBackend

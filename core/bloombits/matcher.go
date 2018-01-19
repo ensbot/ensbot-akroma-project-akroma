@@ -26,8 +26,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/trinityfx/trinity/common/bitutil"
-	"github.com/trinityfx/trinity/crypto"
+	"github.com/akroma-project/akroma/common/bitutil"
+	"github.com/akroma-project/akroma/crypto"
 )
 
 // bloomIndexes represents the bit indexes inside the bloom filter that belong

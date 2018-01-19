@@ -22,7 +22,7 @@ import (
 	"os"
 	"runtime"
 
-	"github.com/trinityfx/trinity/log"
+	"github.com/akroma-project/akroma/log"
 )
 
 func init() {

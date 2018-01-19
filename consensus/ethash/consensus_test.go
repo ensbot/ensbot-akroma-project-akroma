@@ -23,9 +23,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/trinityfx/trinity/common/math"
-	"github.com/trinityfx/trinity/core/types"
-	"github.com/trinityfx/trinity/params"
+	"github.com/akroma-project/akroma/common/math"
+	"github.com/akroma-project/akroma/core/types"
+	"github.com/akroma-project/akroma/params"
 )
 
 type diffTest struct {

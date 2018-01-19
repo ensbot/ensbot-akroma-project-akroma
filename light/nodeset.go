@@ -20,10 +20,10 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/crypto"
-	"github.com/trinityfx/trinity/rlp"
-	"github.com/trinityfx/trinity/trie"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/crypto"
+	"github.com/akroma-project/akroma/rlp"
+	"github.com/akroma-project/akroma/trie"
 )
 
 // NodeSet stores a set of trie nodes. It implements trie.Database and can also

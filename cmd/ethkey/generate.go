@@ -8,9 +8,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/trinityfx/trinity/accounts/keystore"
-	"github.com/trinityfx/trinity/cmd/utils"
-	"github.com/trinityfx/trinity/crypto"
+	"github.com/akroma-project/akroma/accounts/keystore"
+	"github.com/akroma-project/akroma/cmd/utils"
+	"github.com/akroma-project/akroma/crypto"
 	"github.com/pborman/uuid"
 	"gopkg.in/urfave/cli.v1"
 )

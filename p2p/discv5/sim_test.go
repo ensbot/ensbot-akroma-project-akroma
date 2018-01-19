@@ -28,7 +28,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/trinityfx/trinity/common"
+	"github.com/akroma-project/akroma/common"
 )
 
 // In this test, nodes try to randomly resolve each other.

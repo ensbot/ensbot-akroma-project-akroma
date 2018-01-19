@@ -24,7 +24,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/trinityfx/trinity/swarm/testutil"
+	"github.com/akroma-project/akroma/swarm/testutil"
 )
 
 func TestError(t *testing.T) {

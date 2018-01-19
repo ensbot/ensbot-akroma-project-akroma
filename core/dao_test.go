@@ -20,10 +20,10 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/trinityfx/trinity/consensus/ethash"
-	"github.com/trinityfx/trinity/core/vm"
-	"github.com/trinityfx/trinity/ethdb"
-	"github.com/trinityfx/trinity/params"
+	"github.com/akroma-project/akroma/consensus/ethash"
+	"github.com/akroma-project/akroma/core/vm"
+	"github.com/akroma-project/akroma/ethdb"
+	"github.com/akroma-project/akroma/params"
 )
 
 // Tests that DAO-fork enabled clients can properly filter out fork-commencing

@@ -25,9 +25,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/trinityfx/trinity/rpc"
-	"github.com/trinityfx/trinity/swarm"
-	"github.com/trinityfx/trinity/swarm/api"
+	"github.com/akroma-project/akroma/rpc"
+	"github.com/akroma-project/akroma/swarm"
+	"github.com/akroma-project/akroma/swarm/api"
 
 	"github.com/docker/docker/pkg/reexec"
 )

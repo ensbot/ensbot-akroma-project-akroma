@@ -23,15 +23,15 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/common/bitutil"
-	"github.com/trinityfx/trinity/core"
-	"github.com/trinityfx/trinity/core/types"
-	"github.com/trinityfx/trinity/ethdb"
-	"github.com/trinityfx/trinity/log"
-	"github.com/trinityfx/trinity/params"
-	"github.com/trinityfx/trinity/rlp"
-	"github.com/trinityfx/trinity/trie"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/common/bitutil"
+	"github.com/akroma-project/akroma/core"
+	"github.com/akroma-project/akroma/core/types"
+	"github.com/akroma-project/akroma/ethdb"
+	"github.com/akroma-project/akroma/log"
+	"github.com/akroma-project/akroma/params"
+	"github.com/akroma-project/akroma/rlp"
+	"github.com/akroma-project/akroma/trie"
 )
 
 const (

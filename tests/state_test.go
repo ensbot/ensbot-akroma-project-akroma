@@ -22,7 +22,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/trinityfx/trinity/core/vm"
+	"github.com/akroma-project/akroma/core/vm"
 )
 
 func TestState(t *testing.T) {

@@ -19,10 +19,10 @@ package shhclient
 import (
 	"context"
 
-	"github.com/trinityfx/trinity"
-	"github.com/trinityfx/trinity/common/hexutil"
-	"github.com/trinityfx/trinity/rpc"
-	whisper "github.com/trinityfx/trinity/whisper/whisperv5"
+	"github.com/akroma-project/akroma"
+	"github.com/akroma-project/akroma/common/hexutil"
+	"github.com/akroma-project/akroma/rpc"
+	whisper "github.com/akroma-project/akroma/whisper/whisperv5"
 )
 
 // Client defines typed wrappers for the Whisper v5 RPC API.

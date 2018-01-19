@@ -33,7 +33,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/trinityfx/trinity/swarm/api"
+	"github.com/akroma-project/akroma/swarm/api"
 )
 
 var (

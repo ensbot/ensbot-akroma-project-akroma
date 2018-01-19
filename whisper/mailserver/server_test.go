@@ -24,9 +24,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/crypto"
-	whisper "github.com/trinityfx/trinity/whisper/whisperv5"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/crypto"
+	whisper "github.com/akroma-project/akroma/whisper/whisperv5"
 )
 
 const powRequirement = 0.00001

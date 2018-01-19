@@ -22,8 +22,8 @@ import (
 	"strings"
 	"text/tabwriter"
 
-	"github.com/trinityfx/trinity/cmd/utils"
-	swarm "github.com/trinityfx/trinity/swarm/api/client"
+	"github.com/akroma-project/akroma/cmd/utils"
+	swarm "github.com/akroma-project/akroma/swarm/api/client"
 	"gopkg.in/urfave/cli.v1"
 )
 

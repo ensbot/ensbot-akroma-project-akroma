@@ -40,23 +40,23 @@ import (
 	"sync"
 	"time"
 
-	"github.com/trinityfx/trinity/accounts"
-	"github.com/trinityfx/trinity/accounts/keystore"
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/core"
-	"github.com/trinityfx/trinity/core/types"
-	"github.com/trinityfx/trinity/eth"
-	"github.com/trinityfx/trinity/eth/downloader"
-	"github.com/trinityfx/trinity/ethclient"
-	"github.com/trinityfx/trinity/ethstats"
-	"github.com/trinityfx/trinity/les"
-	"github.com/trinityfx/trinity/log"
-	"github.com/trinityfx/trinity/node"
-	"github.com/trinityfx/trinity/p2p"
-	"github.com/trinityfx/trinity/p2p/discover"
-	"github.com/trinityfx/trinity/p2p/discv5"
-	"github.com/trinityfx/trinity/p2p/nat"
-	"github.com/trinityfx/trinity/params"
+	"github.com/akroma-project/akroma/accounts"
+	"github.com/akroma-project/akroma/accounts/keystore"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/core"
+	"github.com/akroma-project/akroma/core/types"
+	"github.com/akroma-project/akroma/eth"
+	"github.com/akroma-project/akroma/eth/downloader"
+	"github.com/akroma-project/akroma/ethclient"
+	"github.com/akroma-project/akroma/ethstats"
+	"github.com/akroma-project/akroma/les"
+	"github.com/akroma-project/akroma/log"
+	"github.com/akroma-project/akroma/node"
+	"github.com/akroma-project/akroma/p2p"
+	"github.com/akroma-project/akroma/p2p/discover"
+	"github.com/akroma-project/akroma/p2p/discv5"
+	"github.com/akroma-project/akroma/p2p/nat"
+	"github.com/akroma-project/akroma/params"
 	"golang.org/x/net/websocket"
 )
 
@@ -450,7 +450,7 @@ func (f *faucet) apiHandler(conn *websocket.Conn) {
 		case *noauthFlag:
 			username, avatar, address, err = authNoAuth(msg.URL)
 		default:
-			err = errors.New("Something funky happened, please open an issue at https://github.com/trinityfx/trinity/issues")
+			err = errors.New("Something funky happened, please open an issue at https://github.com/akroma-project/akroma/issues")
 		}
 		if err != nil {
 			if err = sendError(conn, err); err != nil {

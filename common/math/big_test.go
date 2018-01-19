@@ -22,7 +22,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/trinityfx/trinity/common"
+	"github.com/akroma-project/akroma/common"
 )
 
 func TestHexOrDecimal256(t *testing.T) {

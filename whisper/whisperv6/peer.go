@@ -21,10 +21,10 @@ import (
 	"math"
 	"time"
 
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/log"
-	"github.com/trinityfx/trinity/p2p"
-	"github.com/trinityfx/trinity/rlp"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/log"
+	"github.com/akroma-project/akroma/p2p"
+	"github.com/akroma-project/akroma/rlp"
 	set "gopkg.in/fatih/set.v0"
 )
 

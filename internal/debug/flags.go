@@ -24,8 +24,8 @@ import (
 	"os"
 	"runtime"
 
-	"github.com/trinityfx/trinity/log"
-	"github.com/trinityfx/trinity/log/term"
+	"github.com/akroma-project/akroma/log"
+	"github.com/akroma-project/akroma/log/term"
 	colorable "github.com/mattn/go-colorable"
 	"gopkg.in/urfave/cli.v1"
 )

@@ -25,10 +25,10 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/core"
-	"github.com/trinityfx/trinity/log"
-	"github.com/trinityfx/trinity/params"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/core"
+	"github.com/akroma-project/akroma/log"
+	"github.com/akroma-project/akroma/params"
 )
 
 // makeGenesis creates a new genesis struct based on some user input.

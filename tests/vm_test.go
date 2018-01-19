@@ -19,7 +19,7 @@ package tests
 import (
 	"testing"
 
-	"github.com/trinityfx/trinity/core/vm"
+	"github.com/akroma-project/akroma/core/vm"
 )
 
 func TestVM(t *testing.T) {

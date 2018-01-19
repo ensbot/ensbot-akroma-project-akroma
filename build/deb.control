@@ -5,8 +5,8 @@ Maintainer: {{.Author}}
 Build-Depends: debhelper (>= 8.0.0), golang-1.9
 Standards-Version: 3.9.5
 Homepage: https://ethereum.org
-Vcs-Git: git://github.com/trinityfx/trinity.git
-Vcs-Browser: https://github.com/trinityfx/trinity
+Vcs-Git: git://github.com/akroma-project/akroma.git
+Vcs-Browser: https://github.com/akroma-project/akroma
 
 Package: {{.Name}}
 Architecture: any

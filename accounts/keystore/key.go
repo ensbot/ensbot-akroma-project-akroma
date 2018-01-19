@@ -29,9 +29,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/trinityfx/trinity/accounts"
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/crypto"
+	"github.com/akroma-project/akroma/accounts"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/crypto"
 	"github.com/pborman/uuid"
 )
 

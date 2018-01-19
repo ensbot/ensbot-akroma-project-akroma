@@ -29,7 +29,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/trinityfx/trinity/params"
+	"github.com/akroma-project/akroma/params"
 )
 
 var (

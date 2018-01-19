@@ -27,10 +27,10 @@ import (
 	"errors"
 	"strconv"
 
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/crypto"
-	"github.com/trinityfx/trinity/crypto/ecies"
-	"github.com/trinityfx/trinity/log"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/crypto"
+	"github.com/akroma-project/akroma/crypto/ecies"
+	"github.com/akroma-project/akroma/log"
 )
 
 // Options specifies the exact way a message should be wrapped into an Envelope.

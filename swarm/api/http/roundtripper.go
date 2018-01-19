@@ -20,17 +20,17 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/trinityfx/trinity/log"
+	"github.com/akroma-project/akroma/log"
 )
 
 /*
 http roundtripper to register for bzz url scheme
-see https://github.com/trinityfx/trinity/issues/2040
+see https://github.com/akroma-project/akroma/issues/2040
 Usage:
 
 import (
- "github.com/trinityfx/trinity/common/httpclient"
- "github.com/trinityfx/trinity/swarm/api/http"
+ "github.com/akroma-project/akroma/common/httpclient"
+ "github.com/akroma-project/akroma/swarm/api/http"
 )
 client := httpclient.New()
 // for (private) swarm proxy running locally

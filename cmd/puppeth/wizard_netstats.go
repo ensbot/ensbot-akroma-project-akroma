@@ -23,8 +23,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/trinityfx/trinity/core"
-	"github.com/trinityfx/trinity/log"
+	"github.com/akroma-project/akroma/core"
+	"github.com/akroma-project/akroma/log"
 	"github.com/olekukonko/tablewriter"
 )
 

@@ -23,7 +23,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/trinityfx/trinity/log"
+	"github.com/akroma-project/akroma/log"
 )
 
 /*

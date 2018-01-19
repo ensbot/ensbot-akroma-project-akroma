@@ -24,9 +24,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/trinityfx/trinity/cmd/utils"
-	"github.com/trinityfx/trinity/swarm/api"
-	swarm "github.com/trinityfx/trinity/swarm/api/client"
+	"github.com/akroma-project/akroma/cmd/utils"
+	"github.com/akroma-project/akroma/swarm/api"
+	swarm "github.com/akroma-project/akroma/swarm/api/client"
 	"gopkg.in/urfave/cli.v1"
 )
 

@@ -22,14 +22,14 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/contracts/ens"
-	"github.com/trinityfx/trinity/crypto"
-	"github.com/trinityfx/trinity/log"
-	"github.com/trinityfx/trinity/node"
-	"github.com/trinityfx/trinity/swarm/network"
-	"github.com/trinityfx/trinity/swarm/services/swap"
-	"github.com/trinityfx/trinity/swarm/storage"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/contracts/ens"
+	"github.com/akroma-project/akroma/crypto"
+	"github.com/akroma-project/akroma/log"
+	"github.com/akroma-project/akroma/node"
+	"github.com/akroma-project/akroma/swarm/network"
+	"github.com/akroma-project/akroma/swarm/services/swap"
+	"github.com/akroma-project/akroma/swarm/storage"
 )
 
 const (

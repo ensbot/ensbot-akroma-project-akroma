@@ -26,13 +26,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/core/types"
-	"github.com/trinityfx/trinity/eth"
-	"github.com/trinityfx/trinity/les/flowcontrol"
-	"github.com/trinityfx/trinity/light"
-	"github.com/trinityfx/trinity/p2p"
-	"github.com/trinityfx/trinity/rlp"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/core/types"
+	"github.com/akroma-project/akroma/eth"
+	"github.com/akroma-project/akroma/les/flowcontrol"
+	"github.com/akroma-project/akroma/light"
+	"github.com/akroma-project/akroma/p2p"
+	"github.com/akroma-project/akroma/rlp"
 )
 
 var (

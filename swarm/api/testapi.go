@@ -17,7 +17,7 @@
 package api
 
 import (
-	"github.com/trinityfx/trinity/swarm/network"
+	"github.com/akroma-project/akroma/swarm/network"
 )
 
 type Control struct {

@@ -20,9 +20,9 @@ import (
 	"context"
 	"sync"
 
-	ethereum "github.com/trinityfx/trinity"
-	"github.com/trinityfx/trinity/event"
-	"github.com/trinityfx/trinity/rpc"
+	ethereum "github.com/akroma-project/akroma"
+	"github.com/akroma-project/akroma/event"
+	"github.com/akroma-project/akroma/rpc"
 )
 
 // PublicDownloaderAPI provides an API which gives information about the current synchronisation status.

@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/rpc"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/rpc"
 )
 
 func TestUnmarshalJSONNewFilterArgs(t *testing.T) {

@@ -21,7 +21,7 @@ import (
 	"bytes"
 	"errors"
 
-	"github.com/trinityfx/trinity/crypto"
+	"github.com/akroma-project/akroma/crypto"
 )
 
 const (

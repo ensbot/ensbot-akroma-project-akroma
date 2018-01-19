@@ -21,7 +21,7 @@ package keystore
 import (
 	"time"
 
-	"github.com/trinityfx/trinity/log"
+	"github.com/akroma-project/akroma/log"
 	"github.com/rjeczalik/notify"
 )
 

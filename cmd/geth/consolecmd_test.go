@@ -27,7 +27,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/trinityfx/trinity/params"
+	"github.com/akroma-project/akroma/params"
 )
 
 const (

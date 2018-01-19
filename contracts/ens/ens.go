@@ -22,11 +22,11 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/trinityfx/trinity/accounts/abi/bind"
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/contracts/ens/contract"
-	"github.com/trinityfx/trinity/core/types"
-	"github.com/trinityfx/trinity/crypto"
+	"github.com/akroma-project/akroma/accounts/abi/bind"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/contracts/ens/contract"
+	"github.com/akroma-project/akroma/core/types"
+	"github.com/akroma-project/akroma/crypto"
 )
 
 var (

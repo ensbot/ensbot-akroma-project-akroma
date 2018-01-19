@@ -22,8 +22,8 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/trinityfx/trinity/p2p"
-	"github.com/trinityfx/trinity/p2p/nat"
+	"github.com/akroma-project/akroma/p2p"
+	"github.com/akroma-project/akroma/p2p/nat"
 )
 
 const (

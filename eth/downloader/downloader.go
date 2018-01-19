@@ -27,13 +27,13 @@ import (
 	"sync/atomic"
 	"time"
 
-	ethereum "github.com/trinityfx/trinity"
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/core/types"
-	"github.com/trinityfx/trinity/ethdb"
-	"github.com/trinityfx/trinity/event"
-	"github.com/trinityfx/trinity/log"
-	"github.com/trinityfx/trinity/params"
+	ethereum "github.com/akroma-project/akroma"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/core/types"
+	"github.com/akroma-project/akroma/ethdb"
+	"github.com/akroma-project/akroma/event"
+	"github.com/akroma-project/akroma/log"
+	"github.com/akroma-project/akroma/params"
 	"github.com/rcrowley/go-metrics"
 )
 

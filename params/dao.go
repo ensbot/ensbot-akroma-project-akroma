@@ -19,7 +19,7 @@ package params
 import (
 	"math/big"
 
-	"github.com/trinityfx/trinity/common"
+	"github.com/akroma-project/akroma/common"
 )
 
 // DAOForkBlockExtra is the block header extra-data field to set for the DAO fork

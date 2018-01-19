@@ -23,8 +23,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/rlp"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/rlp"
 )
 
 // from bcValidBlockTest.json, "SimpleTx"

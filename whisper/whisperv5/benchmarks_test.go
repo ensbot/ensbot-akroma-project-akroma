@@ -19,7 +19,7 @@ package whisperv5
 import (
 	"testing"
 
-	"github.com/trinityfx/trinity/crypto"
+	"github.com/akroma-project/akroma/crypto"
 )
 
 func BenchmarkDeriveKeyMaterial(b *testing.B) {

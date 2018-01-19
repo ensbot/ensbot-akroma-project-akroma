@@ -25,13 +25,13 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/trinityfx/trinity/log"
-	"github.com/trinityfx/trinity/node"
-	"github.com/trinityfx/trinity/p2p"
-	"github.com/trinityfx/trinity/p2p/discover"
-	"github.com/trinityfx/trinity/p2p/simulations"
-	"github.com/trinityfx/trinity/p2p/simulations/adapters"
-	"github.com/trinityfx/trinity/rpc"
+	"github.com/akroma-project/akroma/log"
+	"github.com/akroma-project/akroma/node"
+	"github.com/akroma-project/akroma/p2p"
+	"github.com/akroma-project/akroma/p2p/discover"
+	"github.com/akroma-project/akroma/p2p/simulations"
+	"github.com/akroma-project/akroma/p2p/simulations/adapters"
+	"github.com/akroma-project/akroma/rpc"
 )
 
 var adapterType = flag.String("adapter", "sim", `node adapter to use (one of "sim", "exec" or "docker")`)

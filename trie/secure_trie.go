@@ -19,8 +19,8 @@ package trie
 import (
 	"fmt"
 
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/log"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/log"
 )
 
 var secureKeyPrefix = []byte("secure-key-")

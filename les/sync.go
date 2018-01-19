@@ -20,9 +20,9 @@ import (
 	"context"
 	"time"
 
-	"github.com/trinityfx/trinity/core"
-	"github.com/trinityfx/trinity/eth/downloader"
-	"github.com/trinityfx/trinity/light"
+	"github.com/akroma-project/akroma/core"
+	"github.com/akroma-project/akroma/eth/downloader"
+	"github.com/akroma-project/akroma/light"
 )
 
 const (

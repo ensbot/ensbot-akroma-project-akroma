@@ -24,14 +24,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/consensus/ethash"
-	"github.com/trinityfx/trinity/core/state"
-	"github.com/trinityfx/trinity/core/types"
-	"github.com/trinityfx/trinity/core/vm"
-	"github.com/trinityfx/trinity/crypto"
-	"github.com/trinityfx/trinity/ethdb"
-	"github.com/trinityfx/trinity/params"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/consensus/ethash"
+	"github.com/akroma-project/akroma/core/state"
+	"github.com/akroma-project/akroma/core/types"
+	"github.com/akroma-project/akroma/core/vm"
+	"github.com/akroma-project/akroma/crypto"
+	"github.com/akroma-project/akroma/ethdb"
+	"github.com/akroma-project/akroma/params"
 )
 
 // newTestBlockChain creates a blockchain without validation.

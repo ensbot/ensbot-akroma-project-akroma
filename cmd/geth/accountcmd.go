@@ -20,12 +20,12 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/trinityfx/trinity/accounts"
-	"github.com/trinityfx/trinity/accounts/keystore"
-	"github.com/trinityfx/trinity/cmd/utils"
-	"github.com/trinityfx/trinity/console"
-	"github.com/trinityfx/trinity/crypto"
-	"github.com/trinityfx/trinity/log"
+	"github.com/akroma-project/akroma/accounts"
+	"github.com/akroma-project/akroma/accounts/keystore"
+	"github.com/akroma-project/akroma/cmd/utils"
+	"github.com/akroma-project/akroma/console"
+	"github.com/akroma-project/akroma/crypto"
+	"github.com/akroma-project/akroma/log"
 	"gopkg.in/urfave/cli.v1"
 )
 

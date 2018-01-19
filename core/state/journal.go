@@ -19,7 +19,7 @@ package state
 import (
 	"math/big"
 
-	"github.com/trinityfx/trinity/common"
+	"github.com/akroma-project/akroma/common"
 )
 
 type journalEntry interface {

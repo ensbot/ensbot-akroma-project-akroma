@@ -20,7 +20,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/trinityfx/trinity/params"
+	"github.com/akroma-project/akroma/params"
 )
 
 func TestTransaction(t *testing.T) {

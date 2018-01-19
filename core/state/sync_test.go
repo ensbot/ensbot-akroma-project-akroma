@@ -21,10 +21,10 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/crypto"
-	"github.com/trinityfx/trinity/ethdb"
-	"github.com/trinityfx/trinity/trie"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/crypto"
+	"github.com/akroma-project/akroma/ethdb"
+	"github.com/akroma-project/akroma/trie"
 )
 
 // testAccount is the data associated with an account used by the state tests.

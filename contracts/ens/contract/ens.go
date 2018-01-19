@@ -6,10 +6,10 @@ package contract
 import (
 	"strings"
 
-	"github.com/trinityfx/trinity/accounts/abi"
-	"github.com/trinityfx/trinity/accounts/abi/bind"
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/core/types"
+	"github.com/akroma-project/akroma/accounts/abi"
+	"github.com/akroma-project/akroma/accounts/abi/bind"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/core/types"
 )
 
 // ENSABI is the input ABI used to generate the binding from.

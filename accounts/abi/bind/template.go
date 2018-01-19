@@ -16,7 +16,7 @@
 
 package bind
 
-import "github.com/trinityfx/trinity/accounts/abi"
+import "github.com/akroma-project/akroma/accounts/abi"
 
 // tmplData is the data structure required to fill the binding template.
 type tmplData struct {

@@ -22,8 +22,8 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/core/types"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/core/types"
 )
 
 // NotFound is returned by API methods if the requested item does not exist.

@@ -22,7 +22,7 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/trinityfx/trinity/common"
+	"github.com/akroma-project/akroma/common"
 )
 
 // A BigInt represents a signed multi-precision integer.

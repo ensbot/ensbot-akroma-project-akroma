@@ -27,9 +27,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/trinityfx/trinity/accounts"
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/log"
+	"github.com/akroma-project/akroma/accounts"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/log"
 	"gopkg.in/fatih/set.v0"
 )
 

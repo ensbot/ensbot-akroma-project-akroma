@@ -25,9 +25,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/trinityfx/trinity/cmd/utils"
-	"github.com/trinityfx/trinity/node"
-	"github.com/trinityfx/trinity/rpc"
+	"github.com/akroma-project/akroma/cmd/utils"
+	"github.com/akroma-project/akroma/node"
+	"github.com/akroma-project/akroma/rpc"
 	"github.com/gizak/termui"
 	"gopkg.in/urfave/cli.v1"
 )

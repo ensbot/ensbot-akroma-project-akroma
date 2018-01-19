@@ -24,10 +24,10 @@ import (
 	"runtime"
 	"sync"
 
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/consensus"
-	"github.com/trinityfx/trinity/core/types"
-	"github.com/trinityfx/trinity/log"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/consensus"
+	"github.com/akroma-project/akroma/core/types"
+	"github.com/akroma-project/akroma/log"
 )
 
 // Seal implements consensus.Engine, attempting to find a nonce that satisfies

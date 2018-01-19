@@ -27,7 +27,7 @@ import (
 	"path"
 	"strings"
 
-	"github.com/trinityfx/trinity/common/math"
+	"github.com/akroma-project/akroma/common/math"
 	"gopkg.in/urfave/cli.v1"
 )
 

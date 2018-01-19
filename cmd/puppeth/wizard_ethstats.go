@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/trinityfx/trinity/log"
+	"github.com/akroma-project/akroma/log"
 )
 
 // deployEthstats queries the user for various input on deploying an ethstats

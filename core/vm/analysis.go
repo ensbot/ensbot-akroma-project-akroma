@@ -19,7 +19,7 @@ package vm
 import (
 	"math/big"
 
-	"github.com/trinityfx/trinity/common"
+	"github.com/akroma-project/akroma/common"
 )
 
 // destinations stores one map per contract (keyed by hash of code).

@@ -30,8 +30,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/trinityfx/trinity/accounts/keystore"
-	"github.com/trinityfx/trinity/core/types"
+	"github.com/akroma-project/akroma/accounts/keystore"
+	"github.com/akroma-project/akroma/core/types"
 )
 
 // Tests that the account management snippets work correctly.

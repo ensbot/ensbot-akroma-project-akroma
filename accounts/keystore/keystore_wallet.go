@@ -19,9 +19,9 @@ package keystore
 import (
 	"math/big"
 
-	ethereum "github.com/trinityfx/trinity"
-	"github.com/trinityfx/trinity/accounts"
-	"github.com/trinityfx/trinity/core/types"
+	ethereum "github.com/akroma-project/akroma"
+	"github.com/akroma-project/akroma/accounts"
+	"github.com/akroma-project/akroma/core/types"
 )
 
 // keystoreWallet implements the accounts.Wallet interface for the original

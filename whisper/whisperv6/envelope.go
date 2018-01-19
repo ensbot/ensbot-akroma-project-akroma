@@ -26,11 +26,11 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/common/math"
-	"github.com/trinityfx/trinity/crypto"
-	"github.com/trinityfx/trinity/crypto/ecies"
-	"github.com/trinityfx/trinity/rlp"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/common/math"
+	"github.com/akroma-project/akroma/crypto"
+	"github.com/akroma-project/akroma/crypto/ecies"
+	"github.com/akroma-project/akroma/rlp"
 )
 
 // Envelope represents a clear-text data packet to transmit through the Whisper

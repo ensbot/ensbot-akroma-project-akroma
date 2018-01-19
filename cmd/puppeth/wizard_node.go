@@ -21,9 +21,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/trinityfx/trinity/accounts/keystore"
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/log"
+	"github.com/akroma-project/akroma/accounts/keystore"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/log"
 )
 
 // deployNode creates a new node configuration based on some user input.

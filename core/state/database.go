@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/ethdb"
-	"github.com/trinityfx/trinity/trie"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/ethdb"
+	"github.com/akroma-project/akroma/trie"
 	lru "github.com/hashicorp/golang-lru"
 )
 

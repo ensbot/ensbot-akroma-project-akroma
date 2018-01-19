@@ -40,7 +40,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/trinityfx/trinity/crypto"
+	"github.com/akroma-project/akroma/crypto"
 )
 
 var dumpEnc bool

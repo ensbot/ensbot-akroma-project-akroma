@@ -24,8 +24,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/trinityfx/trinity/accounts/abi/bind"
-	"github.com/trinityfx/trinity/common/compiler"
+	"github.com/akroma-project/akroma/accounts/abi/bind"
+	"github.com/akroma-project/akroma/common/compiler"
 )
 
 var (

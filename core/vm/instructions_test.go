@@ -4,8 +4,8 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/params"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/params"
 )
 
 func TestByteOp(t *testing.T) {

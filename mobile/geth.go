@@ -24,17 +24,17 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/trinityfx/trinity/core"
-	"github.com/trinityfx/trinity/eth"
-	"github.com/trinityfx/trinity/eth/downloader"
-	"github.com/trinityfx/trinity/ethclient"
-	"github.com/trinityfx/trinity/ethstats"
-	"github.com/trinityfx/trinity/les"
-	"github.com/trinityfx/trinity/node"
-	"github.com/trinityfx/trinity/p2p"
-	"github.com/trinityfx/trinity/p2p/nat"
-	"github.com/trinityfx/trinity/params"
-	whisper "github.com/trinityfx/trinity/whisper/whisperv5"
+	"github.com/akroma-project/akroma/core"
+	"github.com/akroma-project/akroma/eth"
+	"github.com/akroma-project/akroma/eth/downloader"
+	"github.com/akroma-project/akroma/ethclient"
+	"github.com/akroma-project/akroma/ethstats"
+	"github.com/akroma-project/akroma/les"
+	"github.com/akroma-project/akroma/node"
+	"github.com/akroma-project/akroma/p2p"
+	"github.com/akroma-project/akroma/p2p/nat"
+	"github.com/akroma-project/akroma/params"
+	whisper "github.com/akroma-project/akroma/whisper/whisperv5"
 )
 
 // NodeConfig represents the collection of configuration values to fine tune the Geth

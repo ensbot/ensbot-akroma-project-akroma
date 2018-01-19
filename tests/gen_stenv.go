@@ -7,8 +7,8 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/common/math"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/common/math"
 )
 
 var _ = (*stEnvMarshaling)(nil)

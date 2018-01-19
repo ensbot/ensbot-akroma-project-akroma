@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/trinityfx/trinity/log"
+	"github.com/akroma-project/akroma/log"
 )
 
 // deployExplorer creates a new block explorer based on some user input.

@@ -7,8 +7,8 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/common/hexutil"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/common/hexutil"
 )
 
 func (t txdata) MarshalJSON() ([]byte, error) {

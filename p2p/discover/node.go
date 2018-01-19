@@ -30,9 +30,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/crypto"
-	"github.com/trinityfx/trinity/crypto/secp256k1"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/crypto"
+	"github.com/akroma-project/akroma/crypto/secp256k1"
 )
 
 const NodeIDBits = 512

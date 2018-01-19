@@ -38,9 +38,9 @@ import (
 	"math/big"
 	"unsafe"
 
-	"github.com/trinityfx/trinity/core/state"
-	"github.com/trinityfx/trinity/crypto"
-	"github.com/trinityfx/trinity/params"
+	"github.com/akroma-project/akroma/core/state"
+	"github.com/akroma-project/akroma/crypto"
+	"github.com/akroma-project/akroma/params"
 )
 
 type JitVm struct {

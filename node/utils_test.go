@@ -22,8 +22,8 @@ package node
 import (
 	"reflect"
 
-	"github.com/trinityfx/trinity/p2p"
-	"github.com/trinityfx/trinity/rpc"
+	"github.com/akroma-project/akroma/p2p"
+	"github.com/akroma-project/akroma/rpc"
 )
 
 // NoopService is a trivial implementation of the Service interface.

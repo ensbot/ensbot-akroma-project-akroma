@@ -22,12 +22,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/trinityfx/trinity/accounts/abi/bind"
-	"github.com/trinityfx/trinity/accounts/abi/bind/backends"
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/core"
-	"github.com/trinityfx/trinity/core/types"
-	"github.com/trinityfx/trinity/crypto"
+	"github.com/akroma-project/akroma/accounts/abi/bind"
+	"github.com/akroma-project/akroma/accounts/abi/bind/backends"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/core"
+	"github.com/akroma-project/akroma/core/types"
+	"github.com/akroma-project/akroma/crypto"
 )
 
 var testKey, _ = crypto.HexToECDSA("b71c71a67e1177ad4e901695e1b4b9ee17ae16c6668d313eac2f96dbcda3f291")

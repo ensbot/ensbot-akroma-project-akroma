@@ -19,7 +19,7 @@ package vm
 import (
 	"math/big"
 
-	"github.com/trinityfx/trinity/common/math"
+	"github.com/akroma-project/akroma/common/math"
 )
 
 func memorySha3(stack *Stack) *big.Int {

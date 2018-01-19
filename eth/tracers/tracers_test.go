@@ -25,15 +25,15 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/common/hexutil"
-	"github.com/trinityfx/trinity/common/math"
-	"github.com/trinityfx/trinity/core"
-	"github.com/trinityfx/trinity/core/types"
-	"github.com/trinityfx/trinity/core/vm"
-	"github.com/trinityfx/trinity/ethdb"
-	"github.com/trinityfx/trinity/rlp"
-	"github.com/trinityfx/trinity/tests"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/common/hexutil"
+	"github.com/akroma-project/akroma/common/math"
+	"github.com/akroma-project/akroma/core"
+	"github.com/akroma-project/akroma/core/types"
+	"github.com/akroma-project/akroma/core/vm"
+	"github.com/akroma-project/akroma/ethdb"
+	"github.com/akroma-project/akroma/rlp"
+	"github.com/akroma-project/akroma/tests"
 )
 
 // To generate a new callTracer test, copy paste the makeTest method below into

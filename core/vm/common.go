@@ -19,8 +19,8 @@ package vm
 import (
 	"math/big"
 
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/common/math"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/common/math"
 )
 
 // calculates the memory size required for a step

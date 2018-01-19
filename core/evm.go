@@ -19,10 +19,10 @@ package core
 import (
 	"math/big"
 
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/consensus"
-	"github.com/trinityfx/trinity/core/types"
-	"github.com/trinityfx/trinity/core/vm"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/consensus"
+	"github.com/akroma-project/akroma/core/types"
+	"github.com/akroma-project/akroma/core/vm"
 )
 
 // ChainContext supports retrieving headers and consensus parameters from the

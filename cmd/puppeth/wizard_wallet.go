@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/trinityfx/trinity/log"
+	"github.com/akroma-project/akroma/log"
 )
 
 // deployWallet creates a new web wallet based on some user input.

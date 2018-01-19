@@ -24,8 +24,8 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/trinityfx/trinity/crypto"
-	"github.com/trinityfx/trinity/p2p"
+	"github.com/akroma-project/akroma/crypto"
+	"github.com/akroma-project/akroma/p2p"
 )
 
 // Tests that datadirs can be successfully created, be them manually configured

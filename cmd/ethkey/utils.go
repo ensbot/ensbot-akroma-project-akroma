@@ -22,9 +22,9 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"github.com/trinityfx/trinity/cmd/utils"
-	"github.com/trinityfx/trinity/console"
-	"github.com/trinityfx/trinity/crypto"
+	"github.com/akroma-project/akroma/cmd/utils"
+	"github.com/akroma-project/akroma/console"
+	"github.com/akroma-project/akroma/crypto"
 	"gopkg.in/urfave/cli.v1"
 )
 

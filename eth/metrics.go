@@ -17,8 +17,8 @@
 package eth
 
 import (
-	"github.com/trinityfx/trinity/metrics"
-	"github.com/trinityfx/trinity/p2p"
+	"github.com/akroma-project/akroma/metrics"
+	"github.com/akroma-project/akroma/p2p"
 )
 
 var (

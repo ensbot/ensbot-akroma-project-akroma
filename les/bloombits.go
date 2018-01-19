@@ -19,8 +19,8 @@ package les
 import (
 	"time"
 
-	"github.com/trinityfx/trinity/common/bitutil"
-	"github.com/trinityfx/trinity/light"
+	"github.com/akroma-project/akroma/common/bitutil"
+	"github.com/akroma-project/akroma/light"
 )
 
 const (

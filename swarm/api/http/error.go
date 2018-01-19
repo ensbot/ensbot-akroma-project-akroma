@@ -28,8 +28,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/trinityfx/trinity/log"
-	"github.com/trinityfx/trinity/swarm/api"
+	"github.com/akroma-project/akroma/log"
+	"github.com/akroma-project/akroma/swarm/api"
 )
 
 //templateMap holds a mapping of an HTTP error code to a template

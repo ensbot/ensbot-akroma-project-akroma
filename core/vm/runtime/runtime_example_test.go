@@ -19,8 +19,8 @@ package runtime_test
 import (
 	"fmt"
 
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/core/vm/runtime"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/core/vm/runtime"
 )
 
 func ExampleExecute() {

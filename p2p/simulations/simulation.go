@@ -20,7 +20,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/trinityfx/trinity/p2p/discover"
+	"github.com/akroma-project/akroma/p2p/discover"
 )
 
 // Simulation provides a framework for running actions in a simulated network

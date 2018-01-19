@@ -21,11 +21,11 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/trinityfx/trinity/accounts/abi/bind"
-	"github.com/trinityfx/trinity/accounts/abi/bind/backends"
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/core"
-	"github.com/trinityfx/trinity/crypto"
+	"github.com/akroma-project/akroma/accounts/abi/bind"
+	"github.com/akroma-project/akroma/accounts/abi/bind/backends"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/core"
+	"github.com/akroma-project/akroma/crypto"
 )
 
 // setupReleaseTest creates a blockchain simulator and deploys a version oracle

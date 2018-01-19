@@ -29,8 +29,8 @@ import (
 
 	"github.com/cespare/cp"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/trinityfx/trinity/accounts"
-	"github.com/trinityfx/trinity/common"
+	"github.com/akroma-project/akroma/accounts"
+	"github.com/akroma-project/akroma/common"
 )
 
 var (

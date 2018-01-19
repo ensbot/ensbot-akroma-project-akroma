@@ -25,17 +25,17 @@ import (
 	"os"
 	"strings"
 
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/common/hexutil"
-	"github.com/trinityfx/trinity/core"
-	"github.com/trinityfx/trinity/core/state"
-	"github.com/trinityfx/trinity/core/types"
-	"github.com/trinityfx/trinity/log"
-	"github.com/trinityfx/trinity/miner"
-	"github.com/trinityfx/trinity/params"
-	"github.com/trinityfx/trinity/rlp"
-	"github.com/trinityfx/trinity/rpc"
-	"github.com/trinityfx/trinity/trie"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/common/hexutil"
+	"github.com/akroma-project/akroma/core"
+	"github.com/akroma-project/akroma/core/state"
+	"github.com/akroma-project/akroma/core/types"
+	"github.com/akroma-project/akroma/log"
+	"github.com/akroma-project/akroma/miner"
+	"github.com/akroma-project/akroma/params"
+	"github.com/akroma-project/akroma/rlp"
+	"github.com/akroma-project/akroma/rpc"
+	"github.com/akroma-project/akroma/trie"
 )
 
 // PublicEthereumAPI provides an API to access Ethereum full node-related

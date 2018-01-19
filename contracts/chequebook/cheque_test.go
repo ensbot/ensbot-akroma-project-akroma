@@ -24,12 +24,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/trinityfx/trinity/accounts/abi/bind"
-	"github.com/trinityfx/trinity/accounts/abi/bind/backends"
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/contracts/chequebook/contract"
-	"github.com/trinityfx/trinity/core"
-	"github.com/trinityfx/trinity/crypto"
+	"github.com/akroma-project/akroma/accounts/abi/bind"
+	"github.com/akroma-project/akroma/accounts/abi/bind/backends"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/contracts/chequebook/contract"
+	"github.com/akroma-project/akroma/core"
+	"github.com/akroma-project/akroma/crypto"
 )
 
 var (

@@ -26,14 +26,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/trinityfx/trinity/accounts/abi/bind"
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/contracts/chequebook"
-	"github.com/trinityfx/trinity/contracts/chequebook/contract"
-	"github.com/trinityfx/trinity/core/types"
-	"github.com/trinityfx/trinity/crypto"
-	"github.com/trinityfx/trinity/log"
-	"github.com/trinityfx/trinity/swarm/services/swap/swap"
+	"github.com/akroma-project/akroma/accounts/abi/bind"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/contracts/chequebook"
+	"github.com/akroma-project/akroma/contracts/chequebook/contract"
+	"github.com/akroma-project/akroma/core/types"
+	"github.com/akroma-project/akroma/crypto"
+	"github.com/akroma-project/akroma/log"
+	"github.com/akroma-project/akroma/swarm/services/swap/swap"
 )
 
 // SwAP       Swarm Accounting Protocol with

@@ -16,7 +16,7 @@
 
 package ethclient
 
-import "github.com/trinityfx/trinity"
+import "github.com/akroma-project/akroma"
 
 // Verify that Client implements the ethereum interfaces.
 var (

@@ -26,11 +26,11 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/swarm/api"
-	swarm "github.com/trinityfx/trinity/swarm/api/client"
-	"github.com/trinityfx/trinity/swarm/storage"
-	"github.com/trinityfx/trinity/swarm/testutil"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/swarm/api"
+	swarm "github.com/akroma-project/akroma/swarm/api/client"
+	"github.com/akroma-project/akroma/swarm/storage"
+	"github.com/akroma-project/akroma/swarm/testutil"
 )
 
 func TestBzzGetPath(t *testing.T) {

@@ -23,8 +23,8 @@ import (
 	"crypto/elliptic"
 	"fmt"
 
-	"github.com/trinityfx/trinity/common/math"
-	"github.com/trinityfx/trinity/crypto/secp256k1"
+	"github.com/akroma-project/akroma/common/math"
+	"github.com/akroma-project/akroma/crypto/secp256k1"
 )
 
 // Ecrecover returns the uncompressed public key that created the given signature.

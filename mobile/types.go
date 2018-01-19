@@ -23,9 +23,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/core/types"
-	"github.com/trinityfx/trinity/rlp"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/core/types"
+	"github.com/akroma-project/akroma/rlp"
 )
 
 // A Nonce is a 64-bit hash which proves (combined with the mix-hash) that

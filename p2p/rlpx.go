@@ -35,12 +35,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/trinityfx/trinity/crypto"
-	"github.com/trinityfx/trinity/crypto/ecies"
-	"github.com/trinityfx/trinity/crypto/secp256k1"
-	"github.com/trinityfx/trinity/crypto/sha3"
-	"github.com/trinityfx/trinity/p2p/discover"
-	"github.com/trinityfx/trinity/rlp"
+	"github.com/akroma-project/akroma/crypto"
+	"github.com/akroma-project/akroma/crypto/ecies"
+	"github.com/akroma-project/akroma/crypto/secp256k1"
+	"github.com/akroma-project/akroma/crypto/sha3"
+	"github.com/akroma-project/akroma/p2p/discover"
+	"github.com/akroma-project/akroma/rlp"
 	"github.com/golang/snappy"
 )
 

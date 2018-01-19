@@ -21,8 +21,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/trinityfx/trinity/crypto"
-	"github.com/trinityfx/trinity/crypto/ecies"
+	"github.com/akroma-project/akroma/crypto"
+	"github.com/akroma-project/akroma/crypto/ecies"
 )
 
 func TestEnvelopeOpen(t *testing.T) {

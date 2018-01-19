@@ -19,8 +19,8 @@ package vm
 import (
 	"math/big"
 
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/core/types"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/core/types"
 )
 
 // StateDB is an EVM database for full state querying.

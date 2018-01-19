@@ -26,10 +26,10 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/trinityfx/trinity/cmd/internal/browser"
-	"github.com/trinityfx/trinity/params"
+	"github.com/akroma-project/akroma/cmd/internal/browser"
+	"github.com/akroma-project/akroma/params"
 
-	"github.com/trinityfx/trinity/cmd/utils"
+	"github.com/akroma-project/akroma/cmd/utils"
 	cli "gopkg.in/urfave/cli.v1"
 )
 
@@ -41,7 +41,7 @@ var bugCommand = cli.Command{
 	Category:  "MISCELLANEOUS COMMANDS",
 }
 
-const issueUrl = "https://github.com/trinityfx/trinity/issues/new"
+const issueUrl = "https://github.com/akroma-project/akroma/issues/new"
 
 // reportBug reports a bug by opening a new URL to the go-ethereum GH issue
 // tracker and setting default values as the issue body.

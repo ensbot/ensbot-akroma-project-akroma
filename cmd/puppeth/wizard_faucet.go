@@ -20,8 +20,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/trinityfx/trinity/accounts/keystore"
-	"github.com/trinityfx/trinity/log"
+	"github.com/akroma-project/akroma/accounts/keystore"
+	"github.com/akroma-project/akroma/log"
 )
 
 // deployFaucet queries the user for various input on deploying a faucet, after

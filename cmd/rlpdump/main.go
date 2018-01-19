@@ -26,7 +26,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/trinityfx/trinity/rlp"
+	"github.com/akroma-project/akroma/rlp"
 )
 
 var (

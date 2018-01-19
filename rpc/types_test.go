@@ -20,7 +20,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/trinityfx/trinity/common/math"
+	"github.com/akroma-project/akroma/common/math"
 )
 
 func TestBlockNumberJSONUnmarshal(t *testing.T) {

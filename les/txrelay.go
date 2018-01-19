@@ -19,8 +19,8 @@ package les
 import (
 	"sync"
 
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/core/types"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/core/types"
 )
 
 type ltrInfo struct {

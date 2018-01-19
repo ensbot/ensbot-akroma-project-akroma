@@ -20,8 +20,8 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/ethdb"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/ethdb"
 )
 
 // makeTestTrie create a sample test trie to test node-wise reconstruction.

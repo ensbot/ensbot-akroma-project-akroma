@@ -3,9 +3,9 @@ InstallDir "$InstDir"
 OutFile "${OUTPUTFILE}" # set through command line arguments
 
 # Links for "Add/Remove Programs"
-!define HELPURL "https://github.com/trinityfx/trinity/issues"
-!define UPDATEURL "https://github.com/trinityfx/trinity/releases"
-!define ABOUTURL "https://github.com/trinityfx/trinity#ethereum-go"
+!define HELPURL "https://github.com/akroma-project/akroma/issues"
+!define UPDATEURL "https://github.com/akroma-project/akroma/releases"
+!define ABOUTURL "https://github.com/akroma-project/akroma#ethereum-go"
 !define /date NOW "%Y%m%d"
 
 PageEx license

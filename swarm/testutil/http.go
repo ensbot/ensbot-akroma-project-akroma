@@ -22,9 +22,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/trinityfx/trinity/swarm/api"
-	httpapi "github.com/trinityfx/trinity/swarm/api/http"
-	"github.com/trinityfx/trinity/swarm/storage"
+	"github.com/akroma-project/akroma/swarm/api"
+	httpapi "github.com/akroma-project/akroma/swarm/api/http"
+	"github.com/akroma-project/akroma/swarm/storage"
 )
 
 func NewTestSwarmServer(t *testing.T) *TestSwarmServer {

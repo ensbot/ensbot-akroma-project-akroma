@@ -19,8 +19,8 @@ package state
 import (
 	"testing"
 
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/ethdb"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/ethdb"
 )
 
 var addr = common.BytesToAddress([]byte("test"))

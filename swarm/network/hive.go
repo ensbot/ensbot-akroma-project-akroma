@@ -22,12 +22,12 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/log"
-	"github.com/trinityfx/trinity/p2p/discover"
-	"github.com/trinityfx/trinity/p2p/netutil"
-	"github.com/trinityfx/trinity/swarm/network/kademlia"
-	"github.com/trinityfx/trinity/swarm/storage"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/log"
+	"github.com/akroma-project/akroma/p2p/discover"
+	"github.com/akroma-project/akroma/p2p/netutil"
+	"github.com/akroma-project/akroma/swarm/network/kademlia"
+	"github.com/akroma-project/akroma/swarm/storage"
 )
 
 // Hive is the logistic manager of the swarm

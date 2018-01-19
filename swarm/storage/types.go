@@ -24,9 +24,9 @@ import (
 	"io"
 	"sync"
 
-	"github.com/trinityfx/trinity/bmt"
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/crypto/sha3"
+	"github.com/akroma-project/akroma/bmt"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/crypto/sha3"
 )
 
 type Hasher func() hash.Hash

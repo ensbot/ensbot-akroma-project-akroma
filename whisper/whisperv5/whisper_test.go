@@ -23,7 +23,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/trinityfx/trinity/common"
+	"github.com/akroma-project/akroma/common"
 )
 
 func TestWhisperBasic(t *testing.T) {

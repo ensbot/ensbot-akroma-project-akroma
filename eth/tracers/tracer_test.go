@@ -24,9 +24,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/core/vm"
-	"github.com/trinityfx/trinity/params"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/core/vm"
+	"github.com/akroma-project/akroma/params"
 )
 
 type account struct{}

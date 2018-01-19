@@ -21,11 +21,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/trinityfx/trinity/accounts/abi"
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/core/state"
-	"github.com/trinityfx/trinity/core/vm"
-	"github.com/trinityfx/trinity/ethdb"
+	"github.com/akroma-project/akroma/accounts/abi"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/core/state"
+	"github.com/akroma-project/akroma/core/vm"
+	"github.com/akroma-project/akroma/ethdb"
 )
 
 func TestDefaults(t *testing.T) {

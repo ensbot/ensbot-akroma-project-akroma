@@ -21,8 +21,8 @@ package geth
 import (
 	"math/big"
 
-	"github.com/trinityfx/trinity/core/types"
-	"github.com/trinityfx/trinity/ethclient"
+	"github.com/akroma-project/akroma/core/types"
+	"github.com/akroma-project/akroma/ethclient"
 )
 
 // EthereumClient provides access to the Ethereum APIs.

@@ -20,7 +20,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/trinityfx/trinity/core/types"
+	"github.com/akroma-project/akroma/core/types"
 )
 
 // Tests that ethash works correctly in test mode.

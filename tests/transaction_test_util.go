@@ -22,12 +22,12 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/common/hexutil"
-	"github.com/trinityfx/trinity/common/math"
-	"github.com/trinityfx/trinity/core/types"
-	"github.com/trinityfx/trinity/params"
-	"github.com/trinityfx/trinity/rlp"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/common/hexutil"
+	"github.com/akroma-project/akroma/common/math"
+	"github.com/akroma-project/akroma/core/types"
+	"github.com/akroma-project/akroma/params"
+	"github.com/akroma-project/akroma/rlp"
 )
 
 // TransactionTest checks RLP decoding and sender derivation of transactions.

@@ -21,11 +21,11 @@ import (
 	"net"
 	"time"
 
-	"github.com/trinityfx/trinity/contracts/chequebook"
-	"github.com/trinityfx/trinity/p2p/discover"
-	"github.com/trinityfx/trinity/swarm/network/kademlia"
-	"github.com/trinityfx/trinity/swarm/services/swap"
-	"github.com/trinityfx/trinity/swarm/storage"
+	"github.com/akroma-project/akroma/contracts/chequebook"
+	"github.com/akroma-project/akroma/p2p/discover"
+	"github.com/akroma-project/akroma/swarm/network/kademlia"
+	"github.com/akroma-project/akroma/swarm/services/swap"
+	"github.com/akroma-project/akroma/swarm/storage"
 )
 
 /*

@@ -27,12 +27,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/trinityfx/trinity/event"
-	"github.com/trinityfx/trinity/node"
-	"github.com/trinityfx/trinity/p2p"
-	"github.com/trinityfx/trinity/p2p/discover"
-	"github.com/trinityfx/trinity/p2p/simulations/adapters"
-	"github.com/trinityfx/trinity/rpc"
+	"github.com/akroma-project/akroma/event"
+	"github.com/akroma-project/akroma/node"
+	"github.com/akroma-project/akroma/p2p"
+	"github.com/akroma-project/akroma/p2p/discover"
+	"github.com/akroma-project/akroma/p2p/simulations/adapters"
+	"github.com/akroma-project/akroma/rpc"
 )
 
 // testService implements the node.Service interface and provides protocols

@@ -24,8 +24,8 @@ import (
 
 	"strings"
 
-	"github.com/trinityfx/trinity/cmd/utils"
-	"github.com/trinityfx/trinity/internal/debug"
+	"github.com/akroma-project/akroma/cmd/utils"
+	"github.com/akroma-project/akroma/internal/debug"
 	"gopkg.in/urfave/cli.v1"
 )
 

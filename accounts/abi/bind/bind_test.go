@@ -26,7 +26,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/trinityfx/trinity/common"
+	"github.com/akroma-project/akroma/common"
 	"golang.org/x/tools/imports"
 )
 

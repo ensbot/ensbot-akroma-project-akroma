@@ -21,7 +21,7 @@ package whisperv2
 import (
 	"crypto/ecdsa"
 
-	"github.com/trinityfx/trinity/event/filter"
+	"github.com/akroma-project/akroma/event/filter"
 )
 
 // Filter is used to subscribe to specific types of whisper messages.

@@ -30,9 +30,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/core"
-	"github.com/trinityfx/trinity/log"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/core"
+	"github.com/akroma-project/akroma/log"
 	"golang.org/x/crypto/ssh/terminal"
 )
 

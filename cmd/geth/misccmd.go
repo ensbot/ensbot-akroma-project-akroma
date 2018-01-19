@@ -23,10 +23,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/trinityfx/trinity/cmd/utils"
-	"github.com/trinityfx/trinity/consensus/ethash"
-	"github.com/trinityfx/trinity/eth"
-	"github.com/trinityfx/trinity/params"
+	"github.com/akroma-project/akroma/cmd/utils"
+	"github.com/akroma-project/akroma/consensus/ethash"
+	"github.com/akroma-project/akroma/eth"
+	"github.com/akroma-project/akroma/params"
 	"gopkg.in/urfave/cli.v1"
 )
 

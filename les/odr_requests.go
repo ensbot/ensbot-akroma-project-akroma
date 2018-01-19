@@ -23,15 +23,15 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/core"
-	"github.com/trinityfx/trinity/core/types"
-	"github.com/trinityfx/trinity/crypto"
-	"github.com/trinityfx/trinity/ethdb"
-	"github.com/trinityfx/trinity/light"
-	"github.com/trinityfx/trinity/log"
-	"github.com/trinityfx/trinity/rlp"
-	"github.com/trinityfx/trinity/trie"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/core"
+	"github.com/akroma-project/akroma/core/types"
+	"github.com/akroma-project/akroma/crypto"
+	"github.com/akroma-project/akroma/ethdb"
+	"github.com/akroma-project/akroma/light"
+	"github.com/akroma-project/akroma/log"
+	"github.com/akroma-project/akroma/rlp"
+	"github.com/akroma-project/akroma/trie"
 )
 
 var (

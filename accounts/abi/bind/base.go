@@ -22,11 +22,11 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/trinityfx/trinity"
-	"github.com/trinityfx/trinity/accounts/abi"
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/core/types"
-	"github.com/trinityfx/trinity/crypto"
+	"github.com/akroma-project/akroma"
+	"github.com/akroma-project/akroma/accounts/abi"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/core/types"
+	"github.com/akroma-project/akroma/crypto"
 )
 
 // SignerFn is a signer function callback when a contract requires a method to

@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/trinityfx/trinity/common/hexutil"
-	"github.com/trinityfx/trinity/crypto"
+	"github.com/akroma-project/akroma/common/hexutil"
+	"github.com/akroma-project/akroma/crypto"
 )
 
 type bytesBacked interface {

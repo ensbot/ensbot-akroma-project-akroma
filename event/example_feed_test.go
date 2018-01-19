@@ -19,7 +19,7 @@ package event_test
 import (
 	"fmt"
 
-	"github.com/trinityfx/trinity/event"
+	"github.com/akroma-project/akroma/event"
 )
 
 func ExampleFeed_acknowledgedEvents() {

@@ -26,8 +26,8 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/trinityfx/trinity/common"
-	"github.com/trinityfx/trinity/internal/jsre/deps"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/internal/jsre/deps"
 	"github.com/robertkrimen/otto"
 )
 

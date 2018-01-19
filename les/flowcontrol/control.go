@@ -21,7 +21,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/trinityfx/trinity/common/mclock"
+	"github.com/akroma-project/akroma/common/mclock"
 )
 
 const fcTimeConst = time.Millisecond

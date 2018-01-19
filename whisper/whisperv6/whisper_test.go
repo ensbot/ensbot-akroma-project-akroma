@@ -24,7 +24,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/trinityfx/trinity/common"
+	"github.com/akroma-project/akroma/common"
 	"golang.org/x/crypto/pbkdf2"
 )
 
