@@ -20,7 +20,7 @@ package params
 // the main Ethereum network.
 var MainnetBootnodes = []string{
 	// Trinity Foundation (soon) Go Bootnodes
-	"enode://b68cec80d402504826e3a0c55c9974633b34fdbc1cc79284a0bea333420541d62e4b95b74b23a1cf2dd3dbe4e9aca41addb53aa2871a1a168faf75536dc752fd@@40.79.84.146:30303",
+	"enode://b68cec80d402504826e3a0c55c9974633b34fdbc1cc79284a0bea333420541d62e4b95b74b23a1cf2dd3dbe4e9aca41addb53aa2871a1a168faf75536dc752fd@40.79.84.146:30303",
 	"enode://3adb2b2597ff31de4cdc13ba6bdfccae65c3afd0710f18dcbc168c70a75db1f04fcd344399043514df5b56a97b97703e690eecd5473aebc269b3c476ab2902ef@52.191.171.167:30303",
 }
 
