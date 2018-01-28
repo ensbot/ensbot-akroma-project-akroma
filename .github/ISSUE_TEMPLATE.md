@@ -1,4 +1,5 @@
 Notice: This is an issue tracker reserved for bug reports and feature requests.
+
 Akroma questions: Please use the discord: https://discord.gg/KWC8wtT
 
 #### System information
