@@ -1,8 +1,5 @@
-Hi there,
-
-please note that this is an issue tracker reserved for bug reports and feature requests.
-
-For general questions please use the gitter channel or the Ethereum stack exchange at https://ethereum.stackexchange.com.
+Notice: This is an issue tracker reserved for bug reports and feature requests.
+Akroma questions: Please use the discord: https://discord.gg/KWC8wtT
 
 #### System information
 
