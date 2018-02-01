@@ -144,10 +144,10 @@ matrix:
         # - sed -i '.bak' 's/repo.join/!repo.join/g' $(dirname `gem which cocoapods`)/cocoapods/sources_manager.rb
         # - if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then git clone --depth=1 https://github.com/CocoaPods/Specs.git ~/.cocoapods/repos/master && pod setup --verbose; fi
 
-        - xctool -version
-        - xcrun simctl list
+        # - xctool -version
+        # - xcrun simctl list
 
-        - go run build/ci.go xcode  -deploy trunk -upload akromablob/builds
+        # - go run build/ci.go xcode  -deploy trunk -upload akromablob/builds
 
     # This builder does the Azure archive purges to avoid accumulating junk
     - os: linux
