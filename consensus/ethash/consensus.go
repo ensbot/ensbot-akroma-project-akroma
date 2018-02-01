@@ -38,7 +38,7 @@ import (
 var (
 	FrontierBlockReward    *big.Int = big.NewInt(5e+18) // Block reward in wei for successfully mining a block
 	ByzantiumBlockReward   *big.Int = big.NewInt(9e+18) // Block reward in wei for successfully mining a block upward from Byzantium (Akroma: block 1)
-	AkromaBlockReward      *big.Int = big.NewInt(7e+18) // Block reward for the Akroma inital release (hard fork)
+	AkromaBlockReward      *big.Int = big.NewInt(7e+18) // Block reward for the Akroma initial release (hard fork)
 	masternodeBlockReward  *big.Int = big.NewInt(2e+18) // Block reward in wei for current and future development
 	developmentBlockReward *big.Int = big.NewInt(1e+18) // Block reward in wei for current and future development
 	maxUncles                       = 2                 // Maximum number of uncles allowed in a single block
