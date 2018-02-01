@@ -347,7 +347,7 @@ func doArchive(cmdline []string) {
 	var (
 		arch   = flag.String("arch", runtime.GOARCH, "Architecture cross packaging")
 		atype  = flag.String("type", "zip", "Type of archive to write (zip|tar)")
-		signer = flag.String("signer", "", `Environment variable holding the signing key (e.g. LINUX_SIGNING_KEY)`)
+		signer = flag.String("signer", "", `Environment variable holding the signing key (e.g. PPA_SIGNING_KEY)`)
 		upload = flag.String("upload", "", `Destination to upload the archives (usually "gethstore/builds")`)
 		ext    string
 	)
@@ -637,7 +637,7 @@ func doWindowsInstaller(cmdline []string) {
 	// Parse the flags and make skip installer generation on PRs
 	var (
 		arch    = flag.String("arch", runtime.GOARCH, "Architecture for cross build packaging")
-		signer  = flag.String("signer", "", `Environment variable holding the signing key (e.g. WINDOWS_SIGNING_KEY)`)
+		signer  = flag.String("signer", "", `Environment variable holding the signing key (e.g. PPA_SIGNING_KEY)`)
 		upload  = flag.String("upload", "", `Destination to upload the archives (usually "gethstore/builds")`)
 		workdir = flag.String("workdir", "", `Output directory for packages (uses temp dir if unset)`)
 	)
@@ -707,7 +707,7 @@ func doWindowsInstaller(cmdline []string) {
 func doAndroidArchive(cmdline []string) {
 	var (
 		local  = flag.Bool("local", false, `Flag whether we're only doing a local build (skip Maven artifacts)`)
-		signer = flag.String("signer", "", `Environment variable holding the signing key (e.g. ANDROID_SIGNING_KEY)`)
+		signer = flag.String("signer", "", `Environment variable holding the signing key (e.g. PPA_SIGNING_KEY)`)
 		deploy = flag.String("deploy", "", `Destination to deploy the archive (usually "https://oss.sonatype.org")`)
 		upload = flag.String("upload", "", `Destination to upload the archive (usually "gethstore/builds")`)
 	)
@@ -834,7 +834,7 @@ func newMavenMetadata(env build.Environment) mavenMetadata {
 func doXCodeFramework(cmdline []string) {
 	var (
 		local  = flag.Bool("local", false, `Flag whether we're only doing a local build (skip Maven artifacts)`)
-		signer = flag.String("signer", "", `Environment variable holding the signing key (e.g. IOS_SIGNING_KEY)`)
+		signer = flag.String("signer", "", `Environment variable holding the signing key (e.g. PPA_SIGNING_KEY)`)
 		deploy = flag.String("deploy", "", `Destination to deploy the archive (usually "trunk")`)
 		upload = flag.String("upload", "", `Destination to upload the archives (usually "gethstore/builds")`)
 	)
@@ -977,7 +977,7 @@ func xgoTool(args []string) *exec.Cmd {
 func doPurge(cmdline []string) {
 	var (
 		store = flag.String("store", "", `Destination from where to purge archives (usually "gethstore/builds")`)
-		limit = flag.Int("days", 30, `Age threshold above which to delete unstalbe archives`)
+		limit = flag.Int("days", 30, `Age threshold above which to delete unstable archives`)
 	)
 	flag.CommandLine.Parse(cmdline)
 
