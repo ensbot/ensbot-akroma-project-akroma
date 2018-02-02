@@ -40,15 +40,7 @@ The Akroma project comes with several wrappers/executables found in the `cmd` di
 |:----------:|-------------|
 | **`geth`** | Our main CLI client. It is the entry point into the Akroma network, capable of running as a full node (default) archive node (retaining all historical state) or a light node (retrieving data live). It can be used by other processes as a gateway into the Akroma network via JSON RPC endpoints exposed on top of HTTP, WebSocket and/or IPC transports. `geth --help` for command line options. |
 
-Since Akroma is derived from the Ethereum codebase and has not diverged from it, you can reference the Ethereum RPC documentation as well: https://github.com/ethereum/go-ethereum/wiki/Command-Line-Options
-
-
-## Running geth
-
-Going through all the possible command line flags is out of scope here (please consult our
-[CLI Wiki page](https://github.com/akroma-project/akroma/wiki/Command-Line-Options)), but we've
-enumerated a few common parameter combos to get you up to speed quickly on how you can run your
-own Geth instance.
+Since Akroma is derived from the Ethereum codebase and has not diverged from it, you can reference the Ethereum RPC documentation: https://github.com/ethereum/go-ethereum/wiki/Command-Line-Options
 
 ### Full node on the main Akroma network
 
@@ -68,9 +60,7 @@ This command will:
  * Bump the memory allowance of the database to 512MB (`--cache=512`), which can help significantly in
    sync times especially for HDD users. This flag is optional and you can set it as high or as low as
    you'd like, though we'd recommend the 512MB - 2GB range.
- * Start up Geth's built-in interactive [JavaScript console](https://github.com/akroma-project/akroma/wiki/JavaScript-Console),
-   (via the trailing `console` subcommand) through which you can invoke all official [`web3` methods](https://github.com/trinityfx/wiki/wiki/JavaScript-API)
-   as well as Geth's own [management APIs](https://github.com/akroma-project/akroma/wiki/Management-APIs).
+ * Start up Geth's built-in interactive JavaScript console, (via the trailing `console` subcommand) through which you can invoke all official `web3` methods.
    This too is optional and if you leave it out you can always attach to an already running Geth instance
    with `geth attach`.
 
@@ -108,9 +98,7 @@ Do not forget `--rpcaddr 0.0.0.0`, if you want to access RPC from other containe
 
 As a developer, sooner rather than later you'll want to start interacting with Geth and the Akroma
 network via your own programs and not manually through the console. To aid this, Geth has built in
-support for a JSON-RPC based APIs ([standard APIs](https://github.com/trinityfx/wiki/wiki/JSON-RPC) and
-[Geth specific APIs](https://github.com/akroma-project/akroma/wiki/Management-APIs)). These can be
-exposed via HTTP, WebSockets and IPC (unix sockets on unix based platforms, and named pipes on Windows).
+support for a JSON-RPC based APIs. These can be exposed via HTTP, WebSockets and IPC (unix sockets on unix based platforms, and named pipes on Windows).
 
 The IPC interface is enabled by default and exposes all the APIs supported by Geth, whereas the HTTP
 and WS interfaces need to manually be enabled and only expose a subset of APIs due to security reasons.
@@ -160,7 +148,7 @@ Please make sure your contributions adhere to our coding guidelines:
  * Commit messages should be prefixed with the package(s) they modify.
    * E.g. "eth, rpc: make trace configs optional"
 
-Please see the [Developers' Guide](https://github.com/akroma-project/akroma/wiki/Developers'-Guide)
+Please see the Ethereum [Developers' Guide](https://github.com/ethereum/go-ethereum/wiki/Developers'-Guide)
 for more details on configuring your environment, managing project dependencies and testing procedures.
 
 ## License
