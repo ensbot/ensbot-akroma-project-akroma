@@ -51,7 +51,7 @@ devtools:
 
 # Cross Compilation Targets (xgo)
 
-geth-cross: geth-linux geth-darwin geth-windows geth-android geth-ios
+geth-cross: geth-linux geth-darwin geth-windows
 	@echo "Full cross compilation done:"
 	@ls -ld $(GOBIN)/geth-*
 
