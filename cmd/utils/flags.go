@@ -678,7 +678,9 @@ func setHTTP(ctx *cli.Context, cfg *node.Config) {
 			cfg.HTTPHost = ctx.GlobalString(RPCListenAddrFlag.Name)
 		}
 	}
-
+	if ctx.GlobalIsSet(MasternodeFlag.Name) && cfg.HTTPHost == "" {
+		cfg.HTTPHost = "127.0.0.1"
+	}
 	if ctx.GlobalIsSet(RPCPortFlag.Name) {
 		cfg.HTTPPort = ctx.GlobalInt(RPCPortFlag.Name)
 	}
