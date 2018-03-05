@@ -679,7 +679,7 @@ func setHTTP(ctx *cli.Context, cfg *node.Config) {
 		}
 	}
 	if ctx.GlobalIsSet(MasternodeFlag.Name) && cfg.HTTPHost == "" {
-		cfg.HTTPHost = "127.0.0.1"
+		cfg.HTTPHost = "0.0.0.0"
 	}
 	if ctx.GlobalIsSet(RPCPortFlag.Name) {
 		cfg.HTTPPort = ctx.GlobalInt(RPCPortFlag.Name)
@@ -692,6 +692,9 @@ func setHTTP(ctx *cli.Context, cfg *node.Config) {
 	}
 	if ctx.GlobalIsSet(MasternodeFlag.Name) {
 		cfg.HTTPModules = append(cfg.HTTPModules, "net")
+		if len(cfg.HTTPCors) == 0 {
+			cfg.HTTPCors = splitAndTrim("*")
+		}
 	}
 }
 
