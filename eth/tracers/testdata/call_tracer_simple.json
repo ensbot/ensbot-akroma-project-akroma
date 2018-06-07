@@ -37,7 +37,7 @@
       "chainId": 3,
       "daoForkSupport": true,
       "eip150Block": 0,
-      "eip150Hash": "0x41941023680923e0fe4d74a34bdac8141f2540e3ae90623718e47d66d1ca4a2d",
+      "eip150Hash": "0x0103ea61928224cbf66ab84856d08fa3b49cf8773cd6cafb8f492450580f9026",
       "eip155Block": 10,
       "eip158Block": 10,
       "ethash": {},

@@ -28,38 +28,40 @@ var (
 	MainnetGenesisHash = common.HexToHash("0x679ee3d5213ddab6aad2c53c2b5a7a1021d113f868b93929893a42c93ae61efd")
 
 	// TestnetGenesisHash Testnet genesis hash to enforce below configs on
-	TestnetGenesisHash = common.HexToHash("0x41941023680923e0fe4d74a34bdac8141f2540e3ae90623718e47d66d1ca4a2d")
+	TestnetGenesisHash = common.HexToHash("0x0103ea61928224cbf66ab84856d08fa3b49cf8773cd6cafb8f492450580f9026")
 )
 
 var (
 	// MainnetChainConfig is the chain parameters to run a node on the main network.
 	MainnetChainConfig = &ChainConfig{
-		ChainId:        big.NewInt(200625),
-		HomesteadBlock: big.NewInt(0),
-		DAOForkBlock:   nil,
-		DAOForkSupport: false,
-		EIP150Block:    big.NewInt(0),
-		EIP150Hash:     common.HexToHash("0x0000000000000000000000000000000000000000000000000000000000000000"),
-		EIP155Block:    big.NewInt(1),
-		EIP158Block:    big.NewInt(1),
-		ByzantiumBlock: big.NewInt(0),
-		AkromaBlock:    big.NewInt(300000),
-		Ethash:         new(EthashConfig),
+		ChainId:         big.NewInt(200625),
+		HomesteadBlock:  big.NewInt(0),
+		DAOForkBlock:    nil,
+		DAOForkSupport:  false,
+		EIP150Block:     big.NewInt(0),
+		EIP150Hash:      common.HexToHash("0x0000000000000000000000000000000000000000000000000000000000000000"),
+		EIP155Block:     big.NewInt(1),
+		EIP158Block:     big.NewInt(1),
+		ByzantiumBlock:  big.NewInt(0),
+		AkromaBlock:     big.NewInt(300000),
+		BaneslayerBlock: big.NewInt(1000000),
+		Ethash:          new(EthashConfig),
 	}
 
 	// TestnetChainConfig contains the chain parameters to run a node on the Ropsten test network.
 	TestnetChainConfig = &ChainConfig{
-		ChainId:        big.NewInt(200624),
-		HomesteadBlock: big.NewInt(0),
-		DAOForkBlock:   nil,
-		DAOForkSupport: false,
-		EIP150Block:    big.NewInt(0),
-		EIP150Hash:     common.HexToHash("0x41941023680923e0fe4d74a34bdac8141f2540e3ae90623718e47d66d1ca4a2d"),
-		EIP155Block:    big.NewInt(1),
-		EIP158Block:    big.NewInt(1),
-		ByzantiumBlock: big.NewInt(0),
-		AkromaBlock:    big.NewInt(5),
-		Ethash:         new(EthashConfig),
+		ChainId:         big.NewInt(200624),
+		HomesteadBlock:  big.NewInt(0),
+		DAOForkBlock:    nil,
+		DAOForkSupport:  false,
+		EIP150Block:     big.NewInt(0),
+		EIP150Hash:      common.HexToHash("0x0103ea61928224cbf66ab84856d08fa3b49cf8773cd6cafb8f492450580f9026"),
+		EIP155Block:     big.NewInt(1),
+		EIP158Block:     big.NewInt(1),
+		ByzantiumBlock:  big.NewInt(0),
+		AkromaBlock:     big.NewInt(5),
+		BaneslayerBlock: big.NewInt(10),
+		Ethash:          new(EthashConfig),
 	}
 
 	// AllEthashProtocolChanges contains every protocol change (EIPs) introduced
@@ -67,16 +69,16 @@ var (
 	//
 	// This configuration is intentionally not using keyed fields to force anyone
 	// adding flags to the config to also have to set these fields.
-	AllEthashProtocolChanges = &ChainConfig{big.NewInt(1337), big.NewInt(0), nil, false, big.NewInt(0), common.Hash{}, big.NewInt(0), big.NewInt(0), big.NewInt(0), big.NewInt(0), new(EthashConfig), nil}
+	AllEthashProtocolChanges = &ChainConfig{big.NewInt(1337), big.NewInt(0), nil, false, big.NewInt(0), common.Hash{}, big.NewInt(0), big.NewInt(0), big.NewInt(0), big.NewInt(0), big.NewInt(0), new(EthashConfig), nil}
 
 	// AllCliqueProtocolChanges contains every protocol change (EIPs) introduced
 	// and accepted by the Ethereum core developers into the Clique consensus.
 	//
 	// This configuration is intentionally not using keyed fields to force anyone
 	// adding flags to the config to also have to set these fields.
-	AllCliqueProtocolChanges = &ChainConfig{big.NewInt(1337), big.NewInt(0), nil, false, big.NewInt(0), common.Hash{}, big.NewInt(0), big.NewInt(0), big.NewInt(0), big.NewInt(0), nil, &CliqueConfig{Period: 0, Epoch: 30000}}
+	AllCliqueProtocolChanges = &ChainConfig{big.NewInt(1337), big.NewInt(0), nil, false, big.NewInt(0), common.Hash{}, big.NewInt(0), big.NewInt(0), big.NewInt(0), big.NewInt(0), big.NewInt(0), nil, &CliqueConfig{Period: 0, Epoch: 30000}}
 
-	TestChainConfig = &ChainConfig{big.NewInt(1), big.NewInt(0), nil, false, big.NewInt(0), common.Hash{}, big.NewInt(0), big.NewInt(0), big.NewInt(0), big.NewInt(0), new(EthashConfig), nil}
+	TestChainConfig = &ChainConfig{big.NewInt(1), big.NewInt(0), nil, false, big.NewInt(0), common.Hash{}, big.NewInt(0), big.NewInt(0), big.NewInt(0), big.NewInt(0), big.NewInt(0), new(EthashConfig), nil}
 	TestRules       = TestChainConfig.Rules(new(big.Int))
 )
 
@@ -102,8 +104,8 @@ type ChainConfig struct {
 
 	ByzantiumBlock *big.Int `json:"byzantiumBlock,omitempty"` // Byzantium switch block (nil = no fork, 0 = already on byzantium)
 
-	AkromaBlock *big.Int `json:"akromaBlock,omitempty"` // Akroma switch block (nil = no fork, 0 = already on akroma)
-
+	AkromaBlock     *big.Int `json:"akromaBlock,omitempty"`     // Akroma switch block (nil = no fork, 0 = already on akroma)
+	BaneslayerBlock *big.Int `json:"baneslayerBlock,omitempty"` //second major akroma release
 	// Various consensus engines
 	Ethash *EthashConfig `json:"ethash,omitempty"`
 	Clique *CliqueConfig `json:"clique,omitempty"`
@@ -139,7 +141,7 @@ func (c *ChainConfig) String() string {
 	default:
 		engine = "unknown"
 	}
-	return fmt.Sprintf("{ChainID: %v Homestead: %v DAO: %v DAOSupport: %v EIP150: %v EIP155: %v EIP158: %v Byzantium: %v Akroma: %v Engine: %v}",
+	return fmt.Sprintf("{ChainID: %v Homestead: %v DAO: %v DAOSupport: %v EIP150: %v EIP155: %v EIP158: %v Byzantium: %v Akroma: %v Baneslayer: %v Engine: %v}",
 		c.ChainId,
 		c.HomesteadBlock,
 		c.DAOForkBlock,
@@ -149,6 +151,7 @@ func (c *ChainConfig) String() string {
 		c.EIP158Block,
 		c.ByzantiumBlock,
 		c.AkromaBlock,
+		c.BaneslayerBlock,
 		engine,
 	)
 }
@@ -181,6 +184,10 @@ func (c *ChainConfig) IsByzantium(num *big.Int) bool {
 
 func (c *ChainConfig) IsAkroma(num *big.Int) bool {
 	return isForked(c.AkromaBlock, num)
+}
+
+func (c *ChainConfig) IsBaneslayer(num *big.Int) bool {
+	return isForked(c.BaneslayerBlock, num)
 }
 
 // GasTable returns the gas table corresponding to the current phase (homestead or homestead reprice).
@@ -245,6 +252,9 @@ func (c *ChainConfig) checkCompatible(newcfg *ChainConfig, head *big.Int) *Confi
 	}
 	if isForkIncompatible(c.AkromaBlock, newcfg.AkromaBlock, head) {
 		return newCompatError("Akroma fork block", c.AkromaBlock, newcfg.AkromaBlock)
+	}
+	if isForkIncompatible(c.BaneslayerBlock, newcfg.BaneslayerBlock, head) {
+		return newCompatError("Baneslayer fork block", c.BaneslayerBlock, newcfg.BaneslayerBlock)
 	}
 	return nil
 }
@@ -314,6 +324,7 @@ type Rules struct {
 	IsHomestead, IsEIP150, IsEIP155, IsEIP158 bool
 	IsByzantium                               bool
 	IsAkroma                                  bool
+	IsBaneslayer                              bool
 }
 
 func (c *ChainConfig) Rules(num *big.Int) Rules {
@@ -321,5 +332,5 @@ func (c *ChainConfig) Rules(num *big.Int) Rules {
 	if chainId == nil {
 		chainId = new(big.Int)
 	}
-	return Rules{ChainId: new(big.Int).Set(chainId), IsHomestead: c.IsHomestead(num), IsEIP150: c.IsEIP150(num), IsEIP155: c.IsEIP155(num), IsEIP158: c.IsEIP158(num), IsByzantium: c.IsByzantium(num), IsAkroma: c.IsAkroma(num)}
+	return Rules{ChainId: new(big.Int).Set(chainId), IsHomestead: c.IsHomestead(num), IsEIP150: c.IsEIP150(num), IsEIP155: c.IsEIP155(num), IsEIP158: c.IsEIP158(num), IsByzantium: c.IsByzantium(num), IsAkroma: c.IsAkroma(num), IsBaneslayer: c.IsBaneslayer(num)}
 }
