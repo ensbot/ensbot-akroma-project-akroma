@@ -15,7 +15,7 @@ Official releases are published at https://github.com/akroma-project/akroma/rele
 
 ## Attribution
 
-This README has be adapted from the Go Ethereum official implementation, the original version is available here: https://github.com/ethereum/go-ethereum
+This README has be adapted from the Go Ethereum official implementation, the original version is available here: https://github.com/akroma-project/akroma
 
 ## Building the source
 
@@ -29,7 +29,7 @@ or, to build the full suite of utilities:
 
     make all
 
-Since Akroma is derived from the Ethereum codebase and has not diverged from it, you can reference the Ethereum build documentation for more details on building Akroma: https://github.com/ethereum/go-ethereum/wiki/Building-Ethereum
+Since Akroma is derived from the Ethereum codebase and has not diverged from it, you can reference the Ethereum build documentation for more details on building Akroma: https://github.com/akroma-project/akroma/wiki/Building-Ethereum
 
 
 ## Executables
@@ -40,7 +40,7 @@ The Akroma project comes with several wrappers/executables found in the `cmd` di
 |:----------:|-------------|
 | **`geth`** | Our main CLI client. It is the entry point into the Akroma network, capable of running as a full node (default) archive node (retaining all historical state) or a light node (retrieving data live). It can be used by other processes as a gateway into the Akroma network via JSON RPC endpoints exposed on top of HTTP, WebSocket and/or IPC transports. `geth --help` for command line options. |
 
-Since Akroma is derived from the Ethereum codebase and has not diverged from it, you can reference the Ethereum RPC documentation: https://github.com/ethereum/go-ethereum/wiki/Command-Line-Options
+Since Akroma is derived from the Ethereum codebase and has not diverged from it, you can reference the Ethereum RPC documentation: https://github.com/akroma-project/akroma/wiki/Command-Line-Options
 
 ### Full node on the main Akroma network
 
@@ -148,7 +148,7 @@ Please make sure your contributions adhere to our coding guidelines:
  * Commit messages should be prefixed with the package(s) they modify.
    * E.g. "eth, rpc: make trace configs optional"
 
-Please see the Ethereum [Developers' Guide](https://github.com/ethereum/go-ethereum/wiki/Developers'-Guide)
+Please see the Ethereum [Developers' Guide](https://github.com/akroma-project/akroma/wiki/Developers'-Guide)
 for more details on configuring your environment, managing project dependencies and testing procedures.
 
 ## License
