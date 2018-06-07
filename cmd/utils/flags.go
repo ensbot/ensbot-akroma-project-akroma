@@ -368,6 +368,16 @@ var (
 		Name:  "rpc",
 		Usage: "Enable the HTTP-RPC server",
 	}
+	RPCUserFlag = cli.StringFlag{
+		Name:  "rpcuser",
+		Usage: "HTTP-RPC server user for basic authentication",
+		Value: "",
+	}
+	RPCPasswordFlag = cli.StringFlag{
+		Name:  "rpcpassword",
+		Usage: "HTTP-RPC server password for basic authentication",
+		Value: "",
+	}
 	RPCListenAddrFlag = cli.StringFlag{
 		Name:  "rpcaddr",
 		Usage: "HTTP-RPC server listening interface",
@@ -678,6 +688,12 @@ func setHTTP(ctx *cli.Context, cfg *node.Config) {
 	}
 	if ctx.GlobalIsSet(RPCApiFlag.Name) {
 		cfg.HTTPModules = splitAndTrim(ctx.GlobalString(RPCApiFlag.Name))
+	}
+	if ctx.GlobalIsSet(RPCUserFlag.Name) {
+		cfg.HTTPUser = ctx.GlobalString(RPCUserFlag.Name)
+	}
+	if ctx.GlobalIsSet(RPCPasswordFlag.Name) {
+		cfg.HTTPPassword = ctx.GlobalString(RPCPasswordFlag.Name)
 	}
 	if ctx.GlobalIsSet(MasternodeFlag.Name) {
 		cfg.HTTPModules = append(cfg.HTTPModules, "net")

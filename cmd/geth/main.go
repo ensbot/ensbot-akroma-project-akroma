@@ -96,6 +96,8 @@ var (
 		utils.EtherbaseFlag,
 		utils.GasPriceFlag,
 		utils.MasternodeFlag,
+		utils.RPCUserFlag,
+		utils.RPCPasswordFlag,
 		utils.MinerThreadsFlag,
 		utils.MiningEnabledFlag,
 		utils.TargetGasLimitFlag,
