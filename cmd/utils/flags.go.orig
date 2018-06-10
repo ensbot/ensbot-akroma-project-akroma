@@ -28,10 +28,10 @@ import (
 	"strconv"
 	"strings"
 
+<<<<<<< HEAD
 	"github.com/akroma-project/akroma/accounts"
 	"github.com/akroma-project/akroma/accounts/keystore"
 	"github.com/akroma-project/akroma/common"
-	"github.com/akroma-project/akroma/common/fdlimit"
 	"github.com/akroma-project/akroma/consensus"
 	"github.com/akroma-project/akroma/consensus/clique"
 	"github.com/akroma-project/akroma/consensus/ethash"
@@ -56,6 +56,36 @@ import (
 	"github.com/akroma-project/akroma/p2p/netutil"
 	"github.com/akroma-project/akroma/params"
 	whisper "github.com/akroma-project/akroma/whisper/whisperv5"
+=======
+	"github.com/ethereum/go-ethereum/accounts"
+	"github.com/ethereum/go-ethereum/accounts/keystore"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/common/fdlimit"
+	"github.com/ethereum/go-ethereum/consensus"
+	"github.com/ethereum/go-ethereum/consensus/clique"
+	"github.com/ethereum/go-ethereum/consensus/ethash"
+	"github.com/ethereum/go-ethereum/core"
+	"github.com/ethereum/go-ethereum/core/state"
+	"github.com/ethereum/go-ethereum/core/vm"
+	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/dashboard"
+	"github.com/ethereum/go-ethereum/eth"
+	"github.com/ethereum/go-ethereum/eth/downloader"
+	"github.com/ethereum/go-ethereum/eth/gasprice"
+	"github.com/ethereum/go-ethereum/ethdb"
+	"github.com/ethereum/go-ethereum/ethstats"
+	"github.com/ethereum/go-ethereum/les"
+	"github.com/ethereum/go-ethereum/log"
+	"github.com/ethereum/go-ethereum/metrics"
+	"github.com/ethereum/go-ethereum/node"
+	"github.com/ethereum/go-ethereum/p2p"
+	"github.com/ethereum/go-ethereum/p2p/discover"
+	"github.com/ethereum/go-ethereum/p2p/discv5"
+	"github.com/ethereum/go-ethereum/p2p/nat"
+	"github.com/ethereum/go-ethereum/p2p/netutil"
+	"github.com/ethereum/go-ethereum/params"
+	whisper "github.com/ethereum/go-ethereum/whisper/whisperv5"
+>>>>>>> 56152b31a... common/fdlimit: Move fdlimit files to separate package (#15850)
 	"gopkg.in/urfave/cli.v1"
 )
 
@@ -740,12 +770,20 @@ func setIPC(ctx *cli.Context, cfg *node.Config) {
 // makeDatabaseHandles raises out the number of allowed file handles per process
 // for Geth and returns half of the allowance to assign to the database.
 func makeDatabaseHandles() int {
+<<<<<<< HEAD
+=======
 	if err := fdlimit.Raise(2048); err != nil {
 		Fatalf("Failed to raise file descriptor allowance: %v", err)
 	}
+>>>>>>> 56152b31a... common/fdlimit: Move fdlimit files to separate package (#15850)
 	limit, err := fdlimit.Current()
 	if err != nil {
 		Fatalf("Failed to retrieve file descriptor allowance: %v", err)
+	}
+	if limit < 2048 {
+		if err := fdlimit.Raise(2048); err != nil {
+			Fatalf("Failed to raise file descriptor allowance: %v", err)
+		}
 	}
 	if limit > 2048 { // cap database file descriptors even if more is available
 		limit = 2048
