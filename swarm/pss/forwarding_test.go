@@ -12,7 +12,7 @@ import (
 	"github.com/akroma-project/akroma/p2p/protocols"
 	"github.com/akroma-project/akroma/swarm/network"
 	"github.com/akroma-project/akroma/swarm/pot"
-	whisper "github.com/akroma-project/akroma/whisper/whisperv5"
+	whisper "github.com/akroma-project/akroma/whisper/whisperv6"
 )
 
 type testCase struct {
@@ -54,6 +54,7 @@ func TestForwardBasic(t *testing.T) {
 
 	kad := network.NewKademlia(base[:], network.NewKadParams())
 	ps := createPss(t, kad)
+	defer ps.Stop()
 	addPeers(kad, peerAddresses)
 
 	const firstNearest = depth * 2 // shallowest peer in the nearest neighbours' bin

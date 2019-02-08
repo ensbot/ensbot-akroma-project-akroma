@@ -17,17 +17,16 @@
 package core
 
 import (
+	"bytes"
 	"encoding/json"
 	"fmt"
 	"io/ioutil"
+	"os"
+	"regexp"
 	"strings"
 
 	"github.com/akroma-project/akroma/accounts/abi"
 	"github.com/akroma-project/akroma/common"
-
-	"bytes"
-	"os"
-	"regexp"
 )
 
 type decodedArgument struct {

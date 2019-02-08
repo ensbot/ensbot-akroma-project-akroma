@@ -19,9 +19,8 @@ package core
 import (
 	"encoding/json"
 	"fmt"
-	"strings"
-
 	"math/big"
+	"strings"
 
 	"github.com/akroma-project/akroma/accounts"
 	"github.com/akroma-project/akroma/common"

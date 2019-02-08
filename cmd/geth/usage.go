@@ -74,6 +74,7 @@ var AppHelpFlagGroups = []flagGroup{
 			utils.NetworkIdFlag,
 			utils.TestnetFlag,
 			utils.RinkebyFlag,
+			utils.GoerliFlag,
 			utils.SyncModeFlag,
 			utils.ExitWhenSyncedFlag,
 			utils.GCModeFlag,
@@ -146,6 +147,7 @@ var AppHelpFlagGroups = []flagGroup{
 			utils.PasswordFileFlag,
 			utils.AddrTxIndexFlag,
 			utils.AddrTxIndexAutoBuildFlag,
+			utils.ExternalSignerFlag,
 		},
 	},
 	{

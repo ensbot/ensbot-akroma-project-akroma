@@ -18,12 +18,11 @@ package core
 
 import (
 	"fmt"
-	"strings"
-	"testing"
-
 	"io/ioutil"
 	"math/big"
 	"reflect"
+	"strings"
+	"testing"
 
 	"github.com/akroma-project/akroma/accounts/abi"
 	"github.com/akroma-project/akroma/common"
