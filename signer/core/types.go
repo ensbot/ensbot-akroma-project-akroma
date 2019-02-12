@@ -22,35 +22,10 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/akroma-project/akroma/accounts"
 	"github.com/akroma-project/akroma/common"
 	"github.com/akroma-project/akroma/common/hexutil"
 	"github.com/akroma-project/akroma/core/types"
 )
-
-type Accounts []Account
-
-func (as Accounts) String() string {
-	var output []string
-	for _, a := range as {
-		output = append(output, a.String())
-	}
-	return strings.Join(output, "\n")
-}
-
-type Account struct {
-	Typ     string         `json:"type"`
-	URL     accounts.URL   `json:"url"`
-	Address common.Address `json:"address"`
-}
-
-func (a Account) String() string {
-	s, err := json.Marshal(a)
-	if err == nil {
-		return string(s)
-	}
-	return err.Error()
-}
 
 type ValidationInfo struct {
 	Typ     string `json:"type"`
