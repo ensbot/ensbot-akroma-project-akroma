@@ -543,6 +543,7 @@ func (srv *Server) setupDiscovery() error {
 			Bootnodes:   srv.BootstrapNodes,
 			Unhandled:   unhandled,
 		}
+		//TODO(ep): IRC
 		ntab, err := discover.ListenUDP(conn, srv.localnode, cfg)
 		if err != nil {
 			return err
