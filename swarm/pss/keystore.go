@@ -22,11 +22,11 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/swarm/log"
-	whisper "github.com/ethereum/go-ethereum/whisper/whisperv6"
+	"github.com/akroma-project/akroma/common"
+	"github.com/akroma-project/akroma/crypto"
+	"github.com/akroma-project/akroma/metrics"
+	"github.com/akroma-project/akroma/swarm/log"
+	whisper "github.com/akroma-project/akroma/whisper/whisperv6"
 )
 
 type KeyStore struct {
