@@ -27,6 +27,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/akroma-project/akroma/swarm/testutil"
+
 	"github.com/akroma-project/akroma/common"
 	"github.com/akroma-project/akroma/log"
 	"github.com/akroma-project/akroma/node"
@@ -82,11 +84,18 @@ func getDbStore(nodeID string) (*state.DBStore, error) {
 }
 
 var (
-	nodeCount = flag.Int("nodes", 32, "number of nodes to create (default 32)")
+	nodeCount = flag.Int("nodes", defaultNodeCount(), "number of nodes to create (default 32)")
 	initCount = flag.Int("conns", 1, "number of originally connected peers	 (default 1)")
 	loglevel  = flag.Int("loglevel", 3, "verbosity of logs")
 	rawlog    = flag.Bool("rawlog", false, "remove terminal formatting from logs")
 )
+
+func defaultNodeCount() int {
+	if testutil.RaceEnabled {
+		return 8
+	}
+	return 32
+}
 
 func init() {
 	flag.Parse()
