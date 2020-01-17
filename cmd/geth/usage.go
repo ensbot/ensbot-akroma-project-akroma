@@ -74,6 +74,7 @@ var AppHelpFlagGroups = []flagGroup{
 			utils.NetworkIdFlag,
 			utils.TestnetFlag,
 			utils.RinkebyFlag,
+			utils.GoerliFlag,
 			utils.SyncModeFlag,
 			utils.ExitWhenSyncedFlag,
 			utils.GCModeFlag,
@@ -146,6 +147,7 @@ var AppHelpFlagGroups = []flagGroup{
 			utils.PasswordFileFlag,
 			utils.AddrTxIndexFlag,
 			utils.AddrTxIndexAutoBuildFlag,
+			utils.ExternalSignerFlag,
 		},
 	},
 	{
@@ -314,7 +316,7 @@ func init() {
 					categorized[flag.String()] = struct{}{}
 				}
 			}
-			uncategorized := []cli.Flag{}
+			var uncategorized []cli.Flag
 			for _, flag := range data.(*cli.App).Flags {
 				if _, ok := categorized[flag.String()]; !ok {
 					if strings.HasPrefix(flag.GetName(), "dashboard") {

@@ -17,84 +17,178 @@
 package main
 
 import (
-	"crypto/md5"
-	crand "crypto/rand"
+	"bytes"
+	"context"
 	"fmt"
-	"io"
+	"io/ioutil"
 	"math/rand"
+	"os"
 	"sync"
 	"time"
 
 	"github.com/akroma-project/akroma/log"
 	"github.com/akroma-project/akroma/metrics"
+	"github.com/akroma-project/akroma/rpc"
+	"github.com/akroma-project/akroma/swarm/api"
+	"github.com/akroma-project/akroma/swarm/storage"
+	"github.com/akroma-project/akroma/swarm/testutil"
 	"github.com/pborman/uuid"
 
 	cli "gopkg.in/urfave/cli.v1"
 )
 
-func uploadAndSync(c *cli.Context) error {
-	generateEndpoints(scheme, cluster, appName, from, to)
-	seed := int(time.Now().UnixNano() / 1e6)
+func uploadAndSyncCmd(ctx *cli.Context, tuid string) error {
+	randomBytes := testutil.RandomBytes(seed, filesize*1000)
 
-	log.Info("uploading to "+endpoints[0]+" and syncing", "seed", seed)
+	errc := make(chan error)
 
-	h := md5.New()
-	r := io.TeeReader(io.LimitReader(crand.Reader, int64(filesize*1000)), h)
+	go func() {
+		errc <- uplaodAndSync(ctx, randomBytes, tuid)
+	}()
+
+	select {
+	case err := <-errc:
+		if err != nil {
+			metrics.GetOrRegisterCounter(fmt.Sprintf("%s.fail", commandName), nil).Inc(1)
+		}
+		return err
+	case <-time.After(time.Duration(timeout) * time.Second):
+		metrics.GetOrRegisterCounter(fmt.Sprintf("%s.timeout", commandName), nil).Inc(1)
+
+		e := fmt.Errorf("timeout after %v sec", timeout)
+		// trigger debug functionality on randomBytes
+		err := trackChunks(randomBytes[:])
+		if err != nil {
+			e = fmt.Errorf("%v; triggerChunkDebug failed: %v", e, err)
+		}
+
+		return e
+	}
+}
+
+func trackChunks(testData []byte) error {
+	log.Warn("Test timed out; running chunk debug sequence")
+
+	addrs, err := getAllRefs(testData)
+	if err != nil {
+		return err
+	}
+	log.Trace("All references retrieved")
+
+	// has-chunks
+	for _, host := range hosts {
+		httpHost := fmt.Sprintf("ws://%s:%d", host, 8546)
+		log.Trace("Calling `Has` on host", "httpHost", httpHost)
+		rpcClient, err := rpc.Dial(httpHost)
+		if err != nil {
+			log.Trace("Error dialing host", "err", err)
+			return err
+		}
+		log.Trace("rpc dial ok")
+		var hasInfo []api.HasInfo
+		err = rpcClient.Call(&hasInfo, "bzz_has", addrs)
+		if err != nil {
+			log.Trace("Error calling host", "err", err)
+			return err
+		}
+		log.Trace("rpc call ok")
+		count := 0
+		for _, info := range hasInfo {
+			if !info.Has {
+				count++
+				log.Error("Host does not have chunk", "host", httpHost, "chunk", info.Addr)
+			}
+		}
+		if count == 0 {
+			log.Info("Host reported to have all chunks", "host", httpHost)
+		}
+	}
+	return nil
+}
+
+func getAllRefs(testData []byte) (storage.AddressCollection, error) {
+	log.Trace("Getting all references for given root hash")
+	datadir, err := ioutil.TempDir("", "chunk-debug")
+	if err != nil {
+		return nil, fmt.Errorf("unable to create temp dir: %v", err)
+	}
+	defer os.RemoveAll(datadir)
+	fileStore, err := storage.NewLocalFileStore(datadir, make([]byte, 32))
+	if err != nil {
+		return nil, err
+	}
+	ctx, cancel := context.WithTimeout(context.Background(), time.Duration(trackTimeout)*time.Second)
+	defer cancel()
+
+	reader := bytes.NewReader(testData)
+	return fileStore.GetAllReferences(ctx, reader, false)
+}
+
+func uplaodAndSync(c *cli.Context, randomBytes []byte, tuid string) error {
+	log.Info("uploading to "+httpEndpoint(hosts[0])+" and syncing", "tuid", tuid, "seed", seed)
 
 	t1 := time.Now()
-	hash, err := upload(r, filesize*1000, endpoints[0])
+	hash, err := upload(randomBytes, httpEndpoint(hosts[0]))
 	if err != nil {
 		log.Error(err.Error())
 		return err
 	}
-	metrics.GetOrRegisterResettingTimer("upload-and-sync.upload-time", nil).UpdateSince(t1)
+	t2 := time.Since(t1)
+	metrics.GetOrRegisterResettingTimer("upload-and-sync.upload-time", nil).Update(t2)
 
-	fhash := h.Sum(nil)
+	fhash, err := digest(bytes.NewReader(randomBytes))
+	if err != nil {
+		log.Error(err.Error())
+		return err
+	}
 
-	log.Info("uploaded successfully", "hash", hash, "digest", fmt.Sprintf("%x", fhash))
+	log.Info("uploaded successfully", "tuid", tuid, "hash", hash, "took", t2, "digest", fmt.Sprintf("%x", fhash))
 
 	time.Sleep(time.Duration(syncDelay) * time.Second)
 
 	wg := sync.WaitGroup{}
 	if single {
-		rand.Seed(time.Now().UTC().UnixNano())
-		randIndex := 1 + rand.Intn(len(endpoints)-1)
+		randIndex := 1 + rand.Intn(len(hosts)-1)
 		ruid := uuid.New()[:8]
 		wg.Add(1)
 		go func(endpoint string, ruid string) {
 			for {
 				start := time.Now()
-				err := fetch(hash, endpoint, fhash, ruid)
+				err := fetch(hash, endpoint, fhash, ruid, tuid)
 				if err != nil {
 					continue
 				}
+				ended := time.Since(start)
 
-				metrics.GetOrRegisterResettingTimer("upload-and-sync.single.fetch-time", nil).UpdateSince(start)
+				metrics.GetOrRegisterResettingTimer("upload-and-sync.single.fetch-time", nil).Update(ended)
+				log.Info("fetch successful", "tuid", tuid, "ruid", ruid, "took", ended, "endpoint", endpoint)
 				wg.Done()
 				return
 			}
-		}(endpoints[randIndex], ruid)
+		}(httpEndpoint(hosts[randIndex]), ruid)
 	} else {
-		for _, endpoint := range endpoints[1:] {
+		for _, endpoint := range hosts[1:] {
 			ruid := uuid.New()[:8]
 			wg.Add(1)
 			go func(endpoint string, ruid string) {
 				for {
 					start := time.Now()
-					err := fetch(hash, endpoint, fhash, ruid)
+					err := fetch(hash, endpoint, fhash, ruid, tuid)
 					if err != nil {
 						continue
 					}
+					ended := time.Since(start)
 
-					metrics.GetOrRegisterResettingTimer("upload-and-sync.each.fetch-time", nil).UpdateSince(start)
+					metrics.GetOrRegisterResettingTimer("upload-and-sync.each.fetch-time", nil).Update(ended)
+					log.Info("fetch successful", "tuid", tuid, "ruid", ruid, "took", ended, "endpoint", endpoint)
 					wg.Done()
 					return
 				}
-			}(endpoint, ruid)
+			}(httpEndpoint(endpoint), ruid)
 		}
 	}
 	wg.Wait()
-	log.Info("all endpoints synced random file successfully")
+	log.Info("all hosts synced random file successfully")
 
 	return nil
 }

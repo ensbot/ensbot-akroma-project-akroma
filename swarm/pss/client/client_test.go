@@ -38,7 +38,7 @@ import (
 	"github.com/akroma-project/akroma/swarm/network"
 	"github.com/akroma-project/akroma/swarm/pss"
 	"github.com/akroma-project/akroma/swarm/state"
-	whisper "github.com/akroma-project/akroma/whisper/whisperv5"
+	whisper "github.com/akroma-project/akroma/whisper/whisperv6"
 )
 
 type protoCtrl struct {

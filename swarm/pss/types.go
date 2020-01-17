@@ -26,7 +26,7 @@ import (
 	"github.com/akroma-project/akroma/p2p"
 	"github.com/akroma-project/akroma/rlp"
 	"github.com/akroma-project/akroma/swarm/storage"
-	whisper "github.com/akroma-project/akroma/whisper/whisperv5"
+	whisper "github.com/akroma-project/akroma/whisper/whisperv6"
 )
 
 const (
