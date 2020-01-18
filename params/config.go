@@ -44,6 +44,7 @@ var (
 		ByzantiumBlock:      big.NewInt(0),
 		ConstantinopleBlock: nil,
 		PetersburgBlock:     nil,
+		EWASMBlock:          nil,
 		AkromaBlock:         big.NewInt(300000),
 		BaneslayerBlock:     big.NewInt(1200000),
 		CopperLeafBlock:     big.NewInt(2200000),
@@ -73,6 +74,7 @@ var (
 		ByzantiumBlock:      big.NewInt(0),
 		ConstantinopleBlock: big.NewInt(0),
 		PetersburgBlock:     big.NewInt(0),
+		EWASMBlock:          big.NewInt(0),
 		AkromaBlock:         big.NewInt(0),
 		BaneslayerBlock:     big.NewInt(0),
 		CopperLeafBlock:     big.NewInt(0),
@@ -152,7 +154,25 @@ var (
 	//
 	// This configuration is intentionally not using keyed fields to force anyone
 	// adding flags to the config to also have to set these fields.
-	AllEthashProtocolChanges = &ChainConfig{big.NewInt(1337), big.NewInt(0), nil, false, big.NewInt(0), common.Hash{}, big.NewInt(0), big.NewInt(0), big.NewInt(0), big.NewInt(0), big.NewInt(0), big.NewInt(0), big.NewInt(0), big.NewInt(0), big.NewInt(0), big.NewInt(0), new(EthashConfig), nil}
+	AllEthashProtocolChanges = &ChainConfig{
+		big.NewInt(1337), //ChainID
+		big.NewInt(0),    //HomesteadBlock
+		nil,              //DAOForkBlock
+		false,            //DAOForkSupport
+		big.NewInt(0),    //EIP150Block
+		common.Hash{},    //EIP150Hash
+		big.NewInt(0),    //EIP155Block
+		big.NewInt(0),    //EIP158Block
+		big.NewInt(0),    //ByzantiumBlock
+		big.NewInt(0),    //ConstantinopleBlock
+		big.NewInt(0),    //PetersburgBlock/ConstantinopleFixBlock
+		nil,              //EWASMBlock
+		big.NewInt(0),    //AkromaBlock
+		big.NewInt(0),    //BaneslayerBlock
+		big.NewInt(0),    //CopperLeafBlock
+		big.NewInt(0),    //DawnbreakBlock
+		new(EthashConfig),
+		nil}
 
 	// AllCliqueProtocolChanges contains every protocol change (EIPs) introduced
 	// and accepted by the Ethereum core developers into the Clique consensus.
@@ -161,8 +181,11 @@ var (
 	// adding flags to the config to also have to set these fields.
 	AllCliqueProtocolChanges = &ChainConfig{big.NewInt(1337), big.NewInt(0), nil, false, big.NewInt(0), common.Hash{}, big.NewInt(0), big.NewInt(0), big.NewInt(0), big.NewInt(0), big.NewInt(0), big.NewInt(0), big.NewInt(0), big.NewInt(0), big.NewInt(0), big.NewInt(0), nil, &CliqueConfig{Period: 0, Epoch: 30000}}
 
+	// TestChainConfig is the test chain config
 	TestChainConfig = &ChainConfig{big.NewInt(1), big.NewInt(0), nil, false, big.NewInt(0), common.Hash{}, big.NewInt(0), big.NewInt(0), big.NewInt(0), big.NewInt(0), big.NewInt(0), big.NewInt(0), big.NewInt(0), big.NewInt(0), big.NewInt(0), big.NewInt(0), new(EthashConfig), nil}
-	TestRules       = TestChainConfig.Rules(new(big.Int))
+
+	// TestRules are the test rules
+	TestRules = TestChainConfig.Rules(new(big.Int))
 )
 
 // TrustedCheckpoint represents a set of post-processed trie roots (CHT and
@@ -241,7 +264,7 @@ func (c *ChainConfig) String() string {
 	default:
 		engine = "unknown"
 	}
-	return fmt.Sprintf("{ChainID: %v Homestead: %v DAO: %v DAOSupport: %v EIP150: %v EIP155: %v EIP158: %v Byzantium: %v Constantinople: %v  ConstantinopleFix: %v Akroma: %v Baneslayer: %v CopperLeaf: %v Dawnbreak: %v Engine: %v}",
+	return fmt.Sprintf("{ChainID: %v !!! Homestead: %v DAO: %v DAOSupport: %v EIP150: %v EIP155: %v EIP158: %v Byzantium: %v Constantinople: %v  ConstantinopleFix: %v EWASMBlock: %v Akroma: %v Baneslayer: %v CopperLeaf: %v Dawnbreak: %v Engine: %v}",
 		c.ChainID,
 		c.HomesteadBlock,
 		c.DAOForkBlock,
@@ -252,6 +275,7 @@ func (c *ChainConfig) String() string {
 		c.ByzantiumBlock,
 		c.ConstantinopleBlock,
 		c.PetersburgBlock,
+		c.EWASMBlock,
 		c.AkromaBlock,
 		c.BaneslayerBlock,
 		c.CopperLeafBlock,
